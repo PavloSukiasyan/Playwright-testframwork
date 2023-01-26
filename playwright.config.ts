@@ -1,5 +1,5 @@
 import type { PlaywrightTestConfig } from '@playwright/test';
-import test, { devices } from '@playwright/test';
+import { devices } from '@playwright/test';
 
 /**
  * Read environment variables from file.
@@ -12,7 +12,7 @@ import test, { devices } from '@playwright/test';
  */
 const config: PlaywrightTestConfig = {
   testDir: './tests',
-  
+
   /* Maximum time one test can run for. */
   timeout: 30 * 1000,
   expect: {
@@ -20,7 +20,7 @@ const config: PlaywrightTestConfig = {
      * Maximum time expect() should wait for the condition to be met.
      * For example in `await expect(locator).toHaveText();`
      */
-    timeout: 5000
+    timeout: 5000,
   },
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -32,14 +32,14 @@ const config: PlaywrightTestConfig = {
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: process.env.CI ? [
-    ['html', {open: 'never'}],
+    ['html', { open: 'never' }],
     ['list'],
-    ['junit', {outputFile: 'test-results/junit.xml'}]
-  ]:
-  [
-  ['html'],
-  ['list']
-],
+    ['junit', { outputFile: 'test-results/junit.xml' }],
+  ]
+    : [
+      ['html'],
+      ['list'],
+    ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     viewport: { width: 1680, height: 860 },

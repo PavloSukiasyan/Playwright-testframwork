@@ -18,7 +18,7 @@ test('PT-1, open Cookie Policy page', async ({ page }) => {
     'The Bathroom Showroom | 280+ Showrooms nationwide',
   );
 
-  // close fucking cookie
+  // close cookie
   await page.locator('button#onetrust-accept-btn-handler').click();
 
   // Mock

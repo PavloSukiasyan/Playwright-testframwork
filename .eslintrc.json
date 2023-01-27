@@ -8,12 +8,11 @@
         "airbnb-base",
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:playwright/playwright-test",
-        "plugin:import/errors",
-        "plugin:import/warnings",
-        "plugin:import/typescript"
+        "plugin:playwright/playwright-test"
     ],
     "rules": {
-        "no-useless-constructor": "off"
+        "no-useless-constructor": "off",
+        "import/extensions": "off",
+        "import/no-unresolved": "off"
     }
 }

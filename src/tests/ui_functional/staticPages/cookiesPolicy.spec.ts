@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { routeHelper } from '../../helper/routeHelper';
-import { CommonSteps } from '../../pages/commonSteps';
-import StaticPage from '../../pages/staticPages/staticPage';
+import { routeHelper } from '../../../helper/routeHelper';
+import { CommonSteps } from '../../../pages/commonSteps';
+import StaticPage from '../../../pages/staticPages/staticPage';
 import { mockForCookiesPolicy } from './mockCookiesPolicy';
 
 test.use({

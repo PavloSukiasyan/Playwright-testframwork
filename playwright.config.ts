@@ -37,7 +37,7 @@ const config: PlaywrightTestConfig = {
     ['junit', { outputFile: 'test-results/junit.xml' }],
   ]
     : [
-      ['html'],
+      ['html', { open: 'never' }],
       ['list'],
     ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
@@ -48,6 +48,7 @@ const config: PlaywrightTestConfig = {
     actionTimeout: 0,
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
+    baseURL: 'https://www.bathrooms.com/',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
@@ -59,9 +60,14 @@ const config: PlaywrightTestConfig = {
   projects: [
     {
       name: 'chromium',
+      testDir: './src/tests/ui_functional',
       use: {
         ...devices['Desktop Chrome'],
       },
+    },
+    {
+      name: 'api-tests',
+      testDir: './src/tests/api',
     },
   ],
 

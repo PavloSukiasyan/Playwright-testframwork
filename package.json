@@ -5,6 +5,7 @@
   "main": "helloWorld.js",
   "scripts": {
     "test:chromium": "npx playwright test --project=chromium",
+    "test:api": "npx playwright test --project=api-tests",
     "test": "playwright test",
     "lint:ts": "eslint . --ext .ts",
     "fix-lint:ts": "eslint . --ext .ts --fix"

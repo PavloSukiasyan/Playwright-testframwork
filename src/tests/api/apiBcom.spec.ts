@@ -31,6 +31,8 @@ test('API-2, playbuzz', async ({ request }) => {
 
   expect(await response.json()).toHaveProperty('payload.items.length', 25);
 
+  const respBody = await response.json();
+  expect(respBody.payload.items.find((item) => item.createDate === '2020-06-05T23:37:13.127Z')).toBeTruthy();
 
   expect(['a', 'b', 'c', 'd']).toContain('a');
 });

@@ -18,7 +18,6 @@ export const routeHelper = async (
       ? contentToMock
       : { data: contentToMock };
 
-    // eslint-disable-next-line @typescript-eslint/no-floating-promises
     route.fulfill({
       headers: {
         'Access-Control-Allow-Origin': '*',

@@ -1,0 +1,232 @@
+[
+    {
+        "name": "s",
+        "value": "5FC55BD0E5F203B9",
+        "domain": "recommender.scarabresearch.com",
+        "path": "/merchants/138C26C177A15792",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+    },
+    {
+        "name": "da_lid",
+        "value": "-50D614459A7FEA145550BB99F07F14A1E0|0|0|0",
+        "domain": ".decibelinsight.net",
+        "path": "/i/13969/",
+        "expires": 1707297181.326782,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+    },
+    {
+        "name": "da_sid",
+        "value": "63E527768E3FAE8FC001AA13B27D5EAA53|3|0|0",
+        "domain": ".decibelinsight.net",
+        "path": "/i/13969/",
+        "expires": 1675762981.326852,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+    },
+    {
+        "name": "mt.v",
+        "value": "2.1324304320.1675761176191",
+        "domain": ".www.bathrooms.com",
+        "path": "/",
+        "expires": 1710321177.107014,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_gcl_au",
+        "value": "1.1.704525116.1675761177",
+        "domain": ".bathrooms.com",
+        "path": "/",
+        "expires": 1683537177,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_pin_unauth",
+        "value": "dWlkPU5URTBaREJoTmpZdE56UmtaaTAwTWpVMkxXRm1ZVGt0WmpkbU4ySTFOR0l6WVRBMQ",
+        "domain": ".bathrooms.com",
+        "path": "/",
+        "expires": 1707297177,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "logglytrackingsession",
+        "value": "cc89c037-0673-4884-9649-3f83f582d929",
+        "domain": "www.bathrooms.com",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "OptanonAlertBoxClosed",
+        "value": "2023-02-07T09:13:00.727Z",
+        "domain": ".bathrooms.com",
+        "path": "/",
+        "expires": 1707297180,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Tue+Feb+07+2023+11%3A13%3A00+GMT%2B0200+(Eastern+European+Standard+Time)&version=6.38.0&isIABGlobal=false&hosts=&consentId=0c5c6997-7076-43d6-8fdf-b64138475256&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1",
+        "domain": ".bathrooms.com",
+        "path": "/",
+        "expires": 1707297180,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "AWSALBCORS",
+        "value": "wN8+JJrykW5sq0nGIXzVM1SULuwvxJEgIMkrZQM4t8hVxo7KWTTsm1a/5zaVYJSMs0UcXIbU0rmc/IBRhqtvtxqDael+4UD5VH9MPEnDhgJPRcB2IynwohOqaz1C",
+        "domain": "gis.goinstore.com",
+        "path": "/",
+        "expires": 1676365980.766808,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+    },
+    {
+        "name": "_ga_P0D8M6Z6Z0",
+        "value": "GS1.1.1675761180.1.0.1675761180.0.0.0",
+        "domain": ".bathrooms.com",
+        "path": "/",
+        "expires": 1710321180.929617,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_ga",
+        "value": "GA1.2.335507777.1675761181",
+        "domain": ".bathrooms.com",
+        "path": "/",
+        "expires": 1710321181.108123,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_gid",
+        "value": "GA1.2.1737735794.1675761181",
+        "domain": ".bathrooms.com",
+        "path": "/",
+        "expires": 1675847581,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_gat_UA-151566-19",
+        "value": "1",
+        "domain": ".bathrooms.com",
+        "path": "/",
+        "expires": 1675761241,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_gat_UA-151566-45",
+        "value": "1",
+        "domain": ".bathrooms.com",
+        "path": "/",
+        "expires": 1675761241,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "cdv",
+        "value": "630F661A8C1A2E9D",
+        "domain": "recommender.scarabresearch.com",
+        "path": "/",
+        "expires": 1707318133.246043,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+    },
+    {
+        "name": "_fbp",
+        "value": "fb.1.1675761181248.1270214822",
+        "domain": ".bathrooms.com",
+        "path": "/",
+        "expires": 1683537182,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "scarab.visitor",
+        "value": "%22630F661A8C1A2E9D%22",
+        "domain": ".bathrooms.com",
+        "path": "/",
+        "expires": 1707297181,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "da_sid",
+        "value": "63E527768E3FAE8FC001AA13B27D5EAA53|3|0|3",
+        "domain": ".bathrooms.com",
+        "path": "/",
+        "expires": 1675762981.359627,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Strict"
+    },
+    {
+        "name": "da_lid",
+        "value": "50D614459A7FEA145550BB99F07F14A1E0|0|0|0",
+        "domain": ".bathrooms.com",
+        "path": "/",
+        "expires": 1707297181.360749,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Strict"
+    },
+    {
+        "name": "da_intState",
+        "value": "",
+        "domain": ".bathrooms.com",
+        "path": "/",
+        "expires": 1675762981.361334,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Strict"
+    },
+    {
+        "name": "IDE",
+        "value": "AHWqTUkE7msbqczF1fDB3ju-TRkTClRYw9WAWABp4_XylccI4Sr7ofN1neuZGbrI6i8",
+        "domain": ".doubleclick.net",
+        "path": "/",
+        "expires": 1710321181.546012,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+    },
+    {
+        "name": "DotomiUser",
+        "value": "789406905311439455$0$1955133233$$1",
+        "domain": ".dotomi.com",
+        "path": "/",
+        "expires": 1709716381.974884,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+    }
+]

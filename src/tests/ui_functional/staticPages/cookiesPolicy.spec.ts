@@ -10,20 +10,18 @@ test.use({
   permissions: ['geolocation'],
 });
 
-test('PT-1, open Cookie Policy page', async ({ page }) => {
+test('PT-1, open Cookie Policy page', async ({ page, context }) => {
   const commonSteps = new CommonSteps(page);
   const staticPage = new StaticPage(page);
   const footer = new Footer(page);
-  const cookiesPolicy = new CookiesPolicyComponent(page);
+  const cookiesPolicy = new CookiesPolicyComponent(page, context);
 
+  await cookiesPolicy.setPredefinedCookies();
   await commonSteps.goToHomePage();
 
   await expect.soft(page).toHaveTitle(
     'The Bathroom Showroom | 280+ Showrooms nationwide',
   );
-
-  // close cookie
-  await cookiesPolicy.clickOnAcceptCookies();
 
   // Mock
   await routeHelper(page, 'content/v1/spaces/g44e4oo0e2sa/environments/master', mockForCookiesPolicy);

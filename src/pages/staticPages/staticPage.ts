@@ -7,5 +7,9 @@ export default class StaticPage {
 
   navigationMenuPart = this.mainPartOfStaticPage.locator('[data-testid="navigation-side-menu"]');
 
-  title = this.mainPartOfStaticPage.locator('[class*="col-desktop-6"] h2');
+  titleOfTextBlock = this.mainPartOfStaticPage.locator('[class*="col-desktop-6"] h2[class*="display-large"]');
+
+  titlesOfParagraphText = this.mainPartOfStaticPage.locator('[class*="col-desktop-6"] h3[class*="display-medium"]');
+
+  ordinaryText = this.mainPartOfStaticPage.locator('[class*="col-desktop-6"] div[class*="body-wide-line"]');
 }

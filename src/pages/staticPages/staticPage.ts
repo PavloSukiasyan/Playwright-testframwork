@@ -12,4 +12,6 @@ export default class StaticPage {
   titlesOfParagraphText = this.mainPartOfStaticPage.locator('[class*="col-desktop-6"] h3[class*="display-medium"]');
 
   ordinaryText = this.mainPartOfStaticPage.locator('[class*="col-desktop-6"] div[class*="body-wide-line"]');
+
+  navMenuLink = this.navigationMenuPart.locator('li a');
 }

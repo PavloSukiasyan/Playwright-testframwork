@@ -13,7 +13,7 @@ export const mockForCookiesPolicy = {
             items: [
               {
                 internalLink: '/legal-policies/terms-conditions-of-sale',
-                title: 'Conditions of Sale',
+                title: 'Conditions of Sale_X',
                 sys: {
                   id: '6Xj9OsvgCTT79cWfb0pH8b',
                   __typename: 'Sys',

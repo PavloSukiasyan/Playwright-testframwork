@@ -67,7 +67,7 @@ test.describe('Tests for Static - Cookies policy page: ', () => {
     }
 
     /**
-     * loop possibility two, but Eslint says It's too heavyweight
+     * !loop possibility two, but Eslint says It's too heavyweight
      *
      */
 
@@ -117,7 +117,7 @@ test.describe('Tests for Static - Cookies policy page: ', () => {
     ];
 
     parTitles.forEach(async (title) => {
-      // It seems, that .scrollIntoViewIfNeeded() - is not working in this kind of loop.
+      // !It seems, that .scrollIntoViewIfNeeded() - is not working in this kind of loop.
       // await staticPage.titlesOfParagraphText.nth(parTitles.indexOf(title))
       //  .scrollIntoViewIfNeeded();
       await expect.soft(staticPage.titlesOfParagraphText.nth(parTitles.indexOf(title)))
@@ -130,9 +130,9 @@ test.describe('Tests for Static - Cookies policy page: ', () => {
 
     const firstNormalText = staticPage.ordinaryText.nth(0);
     await expect.soft(firstNormalText).toHaveText(`www.bathrooms.com is a website operated by by the Highbourne Group of companies, 
-    which City Plumbing Supplies Holdings Limited (trading as City Plumbing, The Bathroom Showroom and PTS) ("we" or “us”), 
-    registered in England & Wales under company number 824821 and Our registered office is located at Highbourne House,
-    Eldon Way, Crick Industrial Estate, Crick, Northampton, United Kingdom, NN6 7SL. Our VAT number is 408556737.`);
+      which City Plumbing Supplies Holdings Limited (trading as City Plumbing, The Bathroom Showroom and PTS) ("we" or “us”), 
+      registered in England & Wales under company number 824821 and Our registered office is located at Highbourne House,
+      Eldon Way, Crick Industrial Estate, Crick, Northampton, United Kingdom, NN6 7SL. Our VAT number is 408556737.`);
     await expect.soft(firstNormalText).toHaveCSS('font-size', '16px');
     await expect.soft(firstNormalText).toHaveCSS('font-family', /Helvetica Neue/);
     await expect.soft(firstNormalText).toHaveCSS('font-weight', '400');
@@ -140,5 +140,41 @@ test.describe('Tests for Static - Cookies policy page: ', () => {
     await expect.soft(firstNormalText).toHaveCSS('text-overflow', 'clip');
     await expect.soft(firstNormalText).toHaveCSS('-webkit-line-clamp', 'none');
     await expect.soft(firstNormalText).toHaveCSS('color', 'rgb(0, 0, 0)');
+  });
+
+  test('PT-3, page navigation menu and style', async ({ page }) => {
+    const staticPage = new StaticPage(page);
+
+    await expect.soft(staticPage.navMenuLink).toHaveCount(9);
+
+    const linksNumber = await staticPage.navMenuLink.count();
+
+    for (let i = 0; i < linksNumber; i += 1) {
+      await expect.soft(staticPage.navMenuLink.nth(i)).toHaveCSS('font-size', '16px');
+      await expect.soft(staticPage.navMenuLink.nth(i)).toHaveCSS('font-family', /Helvetica Neue/);
+      await expect.soft(staticPage.navMenuLink.nth(i)).toHaveCSS('font-weight', '700');
+      await expect.soft(staticPage.navMenuLink.nth(i)).toHaveCSS('text-align', 'left');
+      await expect.soft(staticPage.navMenuLink.nth(i)).toHaveCSS('text-overflow', 'clip');
+      await expect.soft(staticPage.navMenuLink.nth(i)).toHaveCSS('-webkit-line-clamp', 'none');
+      await expect.soft(staticPage.navMenuLink.nth(i)).toHaveCSS('color', 'rgb(0, 0, 0)');
+    }
+
+    const linksLabels = [
+      'Conditions of Sale_X',
+      'Cookies Policy',
+      'Privacy Policy',
+      'Modern Slavery Act',
+      'Environmental Policy',
+      'Supplier Commitments',
+      'Accessibility Policy',
+      'Conditions of Website Use',
+      'Promotional Terms & Conditions',
+    ];
+
+    /* eslint no-restricted-syntax: ["error", "BinaryExpression[operator='in']"] */
+    for (const label of linksLabels) {
+      await staticPage.navMenuLink.nth(linksLabels.indexOf(label)).scrollIntoViewIfNeeded();
+      await expect.soft(staticPage.navMenuLink.nth(linksLabels.indexOf(label))).toHaveText(label);
+    }
   });
 });

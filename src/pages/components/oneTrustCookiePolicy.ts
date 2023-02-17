@@ -6,7 +6,7 @@ export default class CookiesPolicyComponent {
 
   acceptBtn = this.page.locator('button#onetrust-accept-btn-handler');
 
-  clickOnAcceptCookies = () => { this.acceptBtn.click(); };
+  clickOnAcceptCookies = async () => { await this.acceptBtn.click(); };
 
   setPredefinedCookies = async () => {
     const cookies = fs.readFileSync('src/cookies.json', 'utf8');

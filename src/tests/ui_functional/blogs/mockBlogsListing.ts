@@ -4264,58 +4264,61 @@ export const chooseBlog = (startArticle: number, endArticle:number) => {
   return result;
 };
 
-export const mockForBlogsListing = {
-  pageListingCollection: {
-    items: [
-      {
-        datePicker: true,
-        filtersCollection: {
-          items: [
-            {
-              title: 'Topic',
-              filters: [
-                'Basins',
-                'Baths',
-                'Lighting',
-                'Mirrors & accessories',
-                'Showers',
-                'Suites & furniture',
-                'Tiles',
-                'Toilets',
-              ],
-              __typename: 'FilterGroup',
-            },
-          ],
-          __typename: 'PageListingFiltersCollection',
+export const mockForBlogsListing = (startArticle: number, endArticle:number) => {
+  const mock = {
+    pageListingCollection: {
+      items: [
+        {
+          datePicker: true,
+          filtersCollection: {
+            items: [
+              {
+                title: 'Topic',
+                filters: [
+                  'Basins',
+                  'Baths',
+                  'Lighting',
+                  'Mirrors & accessories',
+                  'Showers',
+                  'Suites & furniture',
+                  'Tiles',
+                  'Toilets',
+                ],
+                __typename: 'FilterGroup',
+              },
+            ],
+            __typename: 'PageListingFiltersCollection',
+          },
+          listCollection: {
+            total: 113,
+            items: chooseBlog(startArticle, endArticle),
+            __typename: 'PageListingListCollection',
+          },
+          __typename: 'PageListing',
         },
-        listCollection: {
-          total: 113,
-          items: chooseBlog(0, 2),
-          __typename: 'PageListingListCollection',
+      ],
+      __typename: 'PageListingCollection',
+    },
+    pageCollection: {
+      items: [
+        {
+          name: 'Blogs',
+          title: 'Blogs',
+          seo: {
+            title: 'Our bathroom inspired blogs! | The Bathroom Showroom',
+            description: 'Are you looking to create your dream bathroom but need some inspiration? Then, check out The Bathroom Showroom blog for tips, trends, advice, and guidance.',
+            keywords: null,
+            noIndex: false,
+            noFollow: false,
+            __typename: 'Seo',
+          },
+          __typename: 'Page',
         },
-        __typename: 'PageListing',
-      },
-    ],
-    __typename: 'PageListingCollection',
-  },
-  pageCollection: {
-    items: [
-      {
-        name: 'Blogs',
-        title: 'Blogs',
-        seo: {
-          title: 'Our bathroom inspired blogs! | The Bathroom Showroom',
-          description: 'Are you looking to create your dream bathroom but need some inspiration? Then, check out The Bathroom Showroom blog for tips, trends, advice, and guidance.',
-          keywords: null,
-          noIndex: false,
-          noFollow: false,
-          __typename: 'Seo',
-        },
-        __typename: 'Page',
-      },
-    ],
-    __typename: 'PageCollection',
-  },
+      ],
+      __typename: 'PageCollection',
+    },
+  };
+  return mock;
 };
 
 export default mockForBlogsListing;

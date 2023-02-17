@@ -8,25 +8,28 @@ import Footer from '../../../pages/footer';
 import mockForBlogsListing from './mockBlogsListing';
 
 test.describe('Tests for Blogs listing page: ', () => {
+  let blogList : BlogListPage;
+
   test.beforeEach(async ({ page, context }) => {
     const commonSteps = new CommonSteps(page, context);
     const footer = new Footer(page);
     const cookiesPolicy = new CookiesPolicyComponent(page, context);
 
+    blogList = new BlogListPage(page);
+
     await cookiesPolicy.setPredefinedCookies();
     await commonSteps.goToHomePage();
 
     // Mock
-    await routeHelper(page, 'content/v1/spaces/g44e4oo0e2sa/environments/master', mockForBlogsListing);
+    // ToDo add more Blogs to mock, and make default
+    await routeHelper(page, 'content/v1/spaces/g44e4oo0e2sa/environments/master', mockForBlogsListing(0, 2));
 
-    // click footer link
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
   });
 
   test('BCOM-4, open page and breadcrumbs', async ({ page }) => {
     const breadcrumbs = new BreadCrumbsComponent(page);
-    const blogList = new BlogListPage(page);
 
     await expect.soft(page).toHaveURL('/blogs');
 

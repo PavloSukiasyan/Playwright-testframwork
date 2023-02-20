@@ -4257,6 +4257,3762 @@ const blogsArticleArray = [
     },
     __typename: 'SitePageContent',
   },
+  {
+    published: '2023-01-05T00:00:00.000Z',
+    slug: '/blogs/5-easy-ways-to-update-your-bathroom',
+    previewDescription: 'If your bathroom is looking a little tired and worn, you may be considering some bathroom upgrades. ',
+    previewTitle: '5 Easy Ways to Update Your Bathroom',
+    previewImage: {
+      url: 'https://images.ctfassets.net/g44e4oo0e2sa/6vHfKKALYG4RD0B7hGhEv2/8043ac93c0cfa591869cbb14270de56d/7_Small___Multifunctional_Main_V6__FLAT_.jpg',
+      title: '7 Small & Multifunctional Main V6 (FLAT)',
+      description: null,
+      __typename: 'Asset',
+    },
+    componentsCollection: {
+      items: [
+        {
+          __typename: 'ConstructorComponentBanner',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: "If your bathroom is looking a little tired and worn, you may be considering some bathroom upgrades. As we enter a new year, many find the the idea of refreshing our bathroom appealing. Yet for some of us, this time of the year isn't always great on the finances! But, it’s possible to update your bathroom on a budget.",
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: "The Bathroom Showroom offers no less than five easy bathroom updates that won't break the bank.",
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+      ],
+      __typename: 'SitePageContentComponentsCollection',
+    },
+    __typename: 'SitePageContent',
+  },
+  {
+    published: '2023-01-03T00:00:00.000Z',
+    slug: '/blogs/bathroom-trends-for-2023-what-to-watch-out-for-in-2023',
+    previewDescription: 'As we enter a new year full of hope and possibilities, plenty of fresh and inspiring new looks await us in the bathroom! ',
+    previewTitle: 'Bathroom Trends for 2023 - What to Watch Out for in 2023',
+    previewImage: {
+      url: 'https://images.ctfassets.net/g44e4oo0e2sa/77BfpmKu2uc4xKq3hK49Gj/f0793777446c00a0569d3b45be1d71c1/Japandi_suite.jpg',
+      title: 'Japandi suite.jpg',
+      description: null,
+      __typename: 'Asset',
+    },
+    componentsCollection: {
+      items: [
+        {
+          __typename: 'ConstructorComponentBanner',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'As we enter a new year full of hope and possibilities, plenty of fresh and inspiring new looks await us in the bathroom!  ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Our experts at The Bathroom Showroom share with you 10 bathroom trends that we’re excited to see more of in 2023. Revealing the latest in bathroom ideas, these trends will offer bathroom inspiration for the year ahead.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'heading-3',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: '                          The Latest Trends for Bathrooms',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: '',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'unordered-list',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'heading-4',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: '\n',
+                              marks: [],
+                              data: {},
+                            },
+                            {
+                              nodeType: 'text',
+                              value: 'Smart Technology Bathroom Trends 2023',
+                              marks: [
+                                {
+                                  type: 'bold',
+                                },
+                              ],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'We’re all looking for ways to make those busy morning runs and evenings run smoother. So, we’ll see a rise in bathroom technology in 2023. Useful and controllable Smart technology will be a go-to for those looking to combine simplicity with luxury this year.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Showers that provide flawless all-round performance, like ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Mira ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'and ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Aqualisa Digital Showers, ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'and smart toilet choices like ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'VitrA',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' and ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Roca',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' that personalise water temperature and water pressure settings to suit will be a top consideration. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Remote-controlled and Bluetooth bathroom lighting like ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Hib Ceiling Lights',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' will excel at playing music while offering vast lighting colour choices. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Modern mirrors with heated pads like ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Hib Ambience, ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'mirrors with demister switches like ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'iflo Eclipse',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ', and mirrors boasting colour-changing illumination like the ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Hib Solstice ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'will also fare well in 2023. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'unordered-list',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'heading-4',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Spa-Like Bathrooms Continue to Evolve',
+                              marks: [
+                                {
+                                  type: 'bold',
+                                },
+                              ],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'As we continue to look for ways to increase mindfulness in our homes, our bathrooms will play a crucial role as our sanctuary this year. Helping to improve our mental health and boost our self-care, spa-like bathrooms will surge as luxurious and pampered spaces.  ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Bathroom fittings and fixtures such as rainfall showers, like the ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Grohe Rain Shower',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ', will help create the ultimate immersive showering experience. ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/blogs/create-spa-inspired-lighting-on-a-budget',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: 'Adding spa-lighting choices',
+                          marks: [],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' like the ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Spa Corvus, Spa Ecti, ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'and ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Spa Ion ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'will instantly transform the bathroom into a spa, all the while doing so on a budget. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'unordered-list',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'heading-4',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Japandi Style Bathrooms Will Remain Highly Sought After ',
+                              marks: [
+                                {
+                                  type: 'bold',
+                                },
+                              ],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: "Japandi dominated 2022, yet the good news is that it isn't going away anytime soon! Continuing to perform well and rule in 2023, this bathroom trend will carry on making waves.",
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Promoting one of the most effortless aesthetics, ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/list/style-guides/japandi',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: 'Japandi',
+                          marks: [],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' is the perfect style for any bathroom type. Offering fabulous bathroom inspiration, it combines minimalism, an injection of nature, black accents, muted colours, and texture all in one. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'unordered-list',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'heading-4',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Bathroom Lighting Will Provide Greater Bathroom Inspiration ',
+                              marks: [
+                                {
+                                  type: 'bold',
+                                },
+                              ],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: "Bathroom lighting choices will become more selective in 2023 as more of us look to add those light choices that help reduce our energy usage. Though we’re more conscious about our electrical consumption, we don't need to compromise on fabulous lighting designs. This will be the year of amazing opportunities for styling the bathroom through lighting.",
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'From',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/blogs/layer-your-bathroom-lighting-with-plinth-lights',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: ' layering your bathroom with plinth lights ',
+                          marks: [],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'from ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Pro Light',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' to adding ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/blogs/make-your-bathroom-shine-with-stylish-downlights',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: 'the perfect finishing touch with downlights',
+                          marks: [],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' from ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: '4lite',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ', ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Aurora',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ', and ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Robus',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ', the best bathroom lighting trends in 2023 will help you direct your decor and style as you get creative with wonderful new designs. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'unordered-list',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'heading-4',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Exquisite Bathroom Mirrors Will Become A Focal Point',
+                              marks: [
+                                {
+                                  type: 'bold',
+                                },
+                              ],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Bathroom mirrors will become a focal point for many bathrooms in 2023, especially as we start to see some of the most stunning modern designs selected.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'The Bathroom Showroom has an astounding selection of some of the most ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/blogs/treat-your-bathroom-to-a-fabulous-new-bathroom-mirror',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: 'beautifully designed mirrors',
+                          marks: [],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: '. From the minimalist design such as the ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Hib Trim Curve',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' to the polished ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Hib Solas',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' with mirrored sides or the distinctive outer patterning of the ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Hib Bellus',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: '. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Your choice of bathroom mirror can transform your entire room and add an instant wow factor, no matter the size or style of your space.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'unordered-list',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'heading-4',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Off-White Bathrooms Will Promote Greater Warmth ',
+                              marks: [
+                                {
+                                  type: 'bold',
+                                },
+                              ],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Lots of us are looking to incorporate elements of warmth into our bathrooms. So, the all-white look will gradually start to incorporate a more off-white preference. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'As we strive for lighter tones, this trend for 2023 will be about bringing a glow to this space. Helping to create a sense of calmness in this room, bathroom colour schemes such as creams, gentle pinks, and many soothing neutrals will be sought out. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Whether through textiles, fixtures, fittings, or tiles, many will ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/list/rest-and-relaxation/how-to-use-colour-when-creating-a-calming-bathroom',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: 'consider calming colours in 2023',
+                          marks: [],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: '. This will help to create more balance in our bathrooms. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'unordered-list',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'heading-4',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'The Natural-Looking Bathroom Design Will Hold Greater Appeal',
+                              marks: [
+                                {
+                                  type: 'bold',
+                                },
+                              ],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: "As we turn to our bathrooms, considering them more of a sanctuary, bringing the outside in will become a popular bathroom idea in 2023. We'll begin to understand the association of surrounding ourselves with natural materials in this room. Linking this with more positive associations, natural bathroom designs will fare well this year.",
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'The natural look can be enhanced with the simple act of adding',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/list/rest-and-relaxation/what-are-the-best-plants-for-bathrooms',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: ' the best plants for the bathroom',
+                          marks: [],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' environment. It can also work well by selecting bathroom tile trends such as ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Riverstone, Nicewood, Glide, ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'and',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' Skyla',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' choices to emulate soft and gentle marble, stone, and wood choices. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'unordered-list',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'heading-4',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'More of Us Will Experiment With Blending Bathroom Styles',
+                              marks: [
+                                {
+                                  type: 'bold',
+                                },
+                              ],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'We’ve already witnessed a surge in blending bathroom styles that will continue well into 2023.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: "Whether it's a case of mixing the old with the new, combining minimalism with maximalism in specific areas, or simply playing with designs, more of us will become confident in blending styles in our bathroom spaces this year. ",
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'unordered-list',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'heading-4',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Adding Varied Textures to the Bathroom Will Increase',
+                              marks: [
+                                {
+                                  type: 'bold',
+                                },
+                              ],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'With more of us wanting to create a cosy space, our choice of textures in the bathroom will increase in 2023. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Adding texture to your bathroom space combines dual elements of cosiness and practicality. Textures promote an inviting environment and can really make a statement in this room. Yet, they also work to increase warmness and layering, when using ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/list/rest-and-relaxation/the-best-bathroom-towel-material-choices',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: 'towels',
+                          marks: [],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ', rugs, blinds, and window coverings. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'unordered-list',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'heading-4',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Curves and Soft Lines Will Become a Bathroom Design Focus',
+                              marks: [
+                                {
+                                  type: 'bold',
+                                },
+                              ],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Finally, in a bid to soften our bathrooms, curves and soft lines will be a pivotal part of bathroom designs in 2023. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Focusing on the shapes of our ceilings, walls, baths, basins, toilets, and other fixtures and fittings, will help to reduce any starkness. In turn, this will work to create a more relaxed bathroom space as your design flows more naturally and boasts more natural curves.  ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: '',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'heading-4',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'The Bathroom Showroom Can Help You Create the Latest Bathroom Trends ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'If you’re looking to add some of the new bathroom trends for 2023 into your current bathroom space, ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/book-appointment',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: 'book an appointment',
+                          marks: [
+                            {
+                              type: 'underline',
+                            },
+                          ],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' with The Bathroom Showroom. Experts in all things bathrooms, we can help turn your dream bathroom into a reality.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+      ],
+      __typename: 'SitePageContentComponentsCollection',
+    },
+    __typename: 'SitePageContent',
+  },
+  {
+    published: '2022-12-28T00:00:00.000Z',
+    slug: '/blogs/how-to-choose-the-best-bathroom-suite-for-your-needs',
+    previewDescription: 'When it comes to creating a dream bathroom, the bathroom suite we choose can make or break our design. ',
+    previewTitle: ' How to Choose the Best Bathroom Suite for Your Needs',
+    previewImage: {
+      url: 'https://images.ctfassets.net/g44e4oo0e2sa/3aUMwtb3axjMuaKJQX2P8b/cbe4ff971d45b215a2fc8468e5afbf66/4_Dark___Light_Main_V5__FLAT_.jpg',
+      title: '4 Dark & Light Main V5 (FLAT)',
+      description: null,
+      __typename: 'Asset',
+    },
+    componentsCollection: {
+      items: [
+        {
+          __typename: 'ConstructorComponentBanner',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: "When it comes to creating a dream bathroom, the bathroom suite we choose can make or break our design. With plenty of bathroom suites available, there's something to suit all needs. Yet, with the financial outlay required, this is a long-term investment that needs to be right the first time.",
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'The Bathroom Showroom is the expert when it comes to all things bathroom! So, we’ve compiled a short article that answers the many questions customers have when buying a bathroom suite. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'heading-4',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'How Much Space Do You Have In Your Bathroom?',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: "The amount of available space you have to work in will determine your choice of bathroom suite. This includes both the size and the shape of your room. Once you've got ",
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/list/why-choose-us/how-to-measure-your-bathroom',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: 'the measurements of your bathroom',
+                          marks: [],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ", you're in a good position to start designing. This is because you'll understand the requirements and any potential limitations. ",
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'For ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/blogs/create-the-illusion-of-space-in-a-small-bathroom',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: 'small bathrooms',
+                          marks: [],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ', this can mean opting for bathroom suites that open up the space, such as wall-hung units. Whereas for ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/blogs/make-full-use-of-your-large-bathroom-space',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: 'large bathrooms',
+                          marks: [],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' this can mean looking at bigger floor-standing units or an increased multi-functionality layout.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+      ],
+      __typename: 'SitePageContentComponentsCollection',
+    },
+    __typename: 'SitePageContent',
+  },
+  {
+    published: '2022-12-21T00:00:00.000Z',
+    slug: '/blogs/stylish-ways-to-use-marble-in-your-bathroom-design',
+    previewDescription: 'When designing the most opulent of bathroom styles, marble is the most indulgent addition of them all.',
+    previewTitle: 'Stylish Ways to Use Marble in Your Bathroom Design',
+    previewImage: {
+      url: 'https://images.ctfassets.net/g44e4oo0e2sa/46Ru1qOwH5n3rAdtOHZJFs/7e833dcb2dbe45b570702644188cd036/August_blog_2020_Multipanel_Linda_Barker_Collection_Calacatta_Marble_-_Click_flooring_Sicilia.jpg',
+      title: 'Multipanel Linda Barker Collection Calacatta Marble ',
+      description: null,
+      __typename: 'Asset',
+    },
+    componentsCollection: {
+      items: [
+        {
+          __typename: 'ConstructorComponentBanner',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'When designing the most opulent of bathroom styles, marble is the most indulgent addition of them all. Graceful, timeless and simply oozing style, it’s little wonder that it’s a go-to for many dream bathroom designs. With marble mania currently trending in the world of bathroom decor, this material was once favoured by Romans when designing their bathrooms!',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: "Here The Bathroom Showroom considers the phenomenon of marble mania and shows you how to effectively re-create the effect on your bathroom. Whether creating an entire marble bathroom or simply adding selective marble-inspired fittings, there's something for all.",
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Is Marble Suitable for Bathrooms?',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: "Firstly, many people often wonder at the effectiveness of using such a luxurious material in bathrooms. Fortunately, marble is a stone material, meaning it's naturally water-resistant. So, this makes it a sound practical choice for this room type.",
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'When using marble in bathrooms, the effect is undeniably luxurious but ultimately sleek and clean. Offering an element of space to the room, marble can also add incredible warmth when you light it up. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Why Is the Marble Look So Popular in Bathrooms?',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      content: [
+                        {
+                          data: {},
+                          content: [
+                            {
+                              data: {},
+                              marks: [],
+                              value: 'Marble always looks clean, sleek, and polished',
+                              nodeType: 'text',
+                            },
+                          ],
+                          nodeType: 'paragraph',
+                        },
+                      ],
+                      nodeType: 'list-item',
+                    },
+                    {
+                      data: {},
+                      content: [
+                        {
+                          data: {},
+                          content: [
+                            {
+                              data: {},
+                              marks: [],
+                              value: 'It’s a minimal material but you will find dashes of colour and patterns to suit also, alongside a hint of textured surfaces',
+                              nodeType: 'text',
+                            },
+                          ],
+                          nodeType: 'paragraph',
+                        },
+                      ],
+                      nodeType: 'list-item',
+                    },
+                    {
+                      data: {},
+                      content: [
+                        {
+                          data: {},
+                          content: [
+                            {
+                              data: {},
+                              marks: [],
+                              value: 'A most indulgent choice for the bathroom',
+                              nodeType: 'text',
+                            },
+                          ],
+                          nodeType: 'paragraph',
+                        },
+                      ],
+                      nodeType: 'list-item',
+                    },
+                    {
+                      data: {},
+                      content: [
+                        {
+                          data: {},
+                          content: [
+                            {
+                              data: {},
+                              marks: [],
+                              value: 'Marble never really goes out of fashion',
+                              nodeType: 'text',
+                            },
+                          ],
+                          nodeType: 'paragraph',
+                        },
+                      ],
+                      nodeType: 'list-item',
+                    },
+                    {
+                      data: {},
+                      content: [
+                        {
+                          data: {},
+                          content: [
+                            {
+                              data: {},
+                              marks: [],
+                              value: 'You can create an entire marble space',
+                              nodeType: 'text',
+                            },
+                          ],
+                          nodeType: 'paragraph',
+                        },
+                      ],
+                      nodeType: 'list-item',
+                    },
+                    {
+                      data: {},
+                      content: [
+                        {
+                          data: {},
+                          content: [
+                            {
+                              data: {},
+                              marks: [],
+                              value: 'You can simply add just a few marble fixtures and fittings to suit',
+                              nodeType: 'text',
+                            },
+                          ],
+                          nodeType: 'paragraph',
+                        },
+                      ],
+                      nodeType: 'list-item',
+                    },
+                    {
+                      data: {},
+                      content: [
+                        {
+                          data: {},
+                          content: [
+                            {
+                              data: {},
+                              marks: [],
+                              value: 'This material choice is perfect when mixing and matching and will complement almost anything!',
+                              nodeType: 'text',
+                            },
+                          ],
+                          nodeType: 'paragraph',
+                        },
+                      ],
+                      nodeType: 'list-item',
+                    },
+                  ],
+                  nodeType: 'unordered-list',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: '',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'What Goes With a Marble Bathroom?',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'The best aspect about marble is that it can be used almost effortlessly with any other decor, colour scheme, and bathroom fixtures and fittings. Whether your taste is modern or traditional, contemporary or classic, marble is a fantastic natural element that just works. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'From a marble bathroom with gold fixtures to a marble bathroom with black fixtures the possibilities are endless with this material. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: '',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Easy Ways to Add Marble In Your Bathroom',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'Recreating a marvellous marble effect in any bathroom, whether big or small is so easy. The Bathroom Showroom offers a varied stunning selection of marble-related bathroom products that can be used through your tiles, wall panels, flooring, worktops, and even in your bath choice!',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'heading-4',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Using Marble for Bathroom Tiles',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Our beautiful collection of marble tiles is simply stunning and is guaranteed to transform your bathroom space. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Beta ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: '- Available as ceramic and porcelain tiles, the Beta range boasts premium Calacatta marble-effect tiles. With a choice of gloss finish and semi-polished finishes, the result is a shimmering luxurious solution that encourages a luxurious look. Yet, with its premium finish, the Beta range eliminates the need for sealing or special maintenance.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Paloma - ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Ceramic marble-effect tiles with a glossy surface, the Paloma tile range is a stunning design of light grey or beige shades. Offering a contemporary tonal effect, their gloss finish encourages bounces light around the room, totally opening up the space.',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Lux Marble -',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [],
+                      value: ' Fully on trend, Lux Marble tiles are a premium finish with their grey body and straight rectified edges. A hard-wearing porcelain choice these tiles catch the light with their subtle semi-polished finish and make for a contemporary and sophisticated bathroom addition. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Metro Calacatta - ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'A striking ceramic tile choice, the Metro Calcutta range is a perfect bathroom option that merges classic with contemporary. A glossy Metro bevel tile combined with a calacatta marble design, this range is subtle but inspiring with a superb finish that can be laid in a variety of patterns. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Glide - ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'Finally, for a neutral tone of pure white with a most gentle veining to finish, the Glide tile range is a charming bathroom addition. Available as porcelain and ceramic tiles, this is a carrara marble option that boasts seamless installation. Perfect for feature walls, the Glide range allows for coordinating linear decors. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Using Marble for Bathroom Wall Panels',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'Wall panels are great alternatives to tiling your bathroom wall and offer fabulous designs to complement the marble theme. The Bathroom Showroom offers a vast and varied selection of wall panels that feature marbling in their design, including:',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      content: [
+                        {
+                          data: {},
+                          content: [
+                            {
+                              data: {},
+                              marks: [
+                                {
+                                  type: 'bold',
+                                },
+                              ],
+                              value: 'The Tile Collection - ',
+                              nodeType: 'text',
+                            },
+                            {
+                              data: {},
+                              marks: [],
+                              value: 'Featuring Levanto Marble and Valmasino Marble',
+                              nodeType: 'text',
+                            },
+                          ],
+                          nodeType: 'paragraph',
+                        },
+                      ],
+                      nodeType: 'list-item',
+                    },
+                    {
+                      data: {},
+                      content: [
+                        {
+                          data: {},
+                          content: [
+                            {
+                              data: {},
+                              marks: [
+                                {
+                                  type: 'bold',
+                                },
+                              ],
+                              value: 'Linda Barker Collection - ',
+                              nodeType: 'text',
+                            },
+                            {
+                              data: {},
+                              marks: [],
+                              value: 'Featuring Calacatta Marble',
+                              nodeType: 'text',
+                            },
+                          ],
+                          nodeType: 'paragraph',
+                        },
+                      ],
+                      nodeType: 'list-item',
+                    },
+                    {
+                      data: {},
+                      content: [
+                        {
+                          data: {},
+                          content: [
+                            {
+                              data: {},
+                              marks: [
+                                {
+                                  type: 'bold',
+                                },
+                              ],
+                              value: 'Multipanel Classic Collection - ',
+                              nodeType: 'text',
+                            },
+                            {
+                              data: {},
+                              marks: [],
+                              value: 'Featuring Classic Marble,  Grey Marble, and Antique Marble',
+                              nodeType: 'text',
+                            },
+                          ],
+                          nodeType: 'paragraph',
+                        },
+                      ],
+                      nodeType: 'list-item',
+                    },
+                    {
+                      data: {},
+                      content: [
+                        {
+                          data: {},
+                          content: [
+                            {
+                              data: {},
+                              marks: [
+                                {
+                                  type: 'bold',
+                                },
+                              ],
+                              value: 'Mermaid Timeless Laminate Collection -',
+                              nodeType: 'text',
+                            },
+                            {
+                              data: {},
+                              marks: [],
+                              value: ' Featuring White Marble',
+                              nodeType: 'text',
+                            },
+                          ],
+                          nodeType: 'paragraph',
+                        },
+                      ],
+                      nodeType: 'list-item',
+                    },
+                    {
+                      data: {},
+                      content: [
+                        {
+                          data: {},
+                          content: [
+                            {
+                              data: {},
+                              marks: [
+                                {
+                                  type: 'bold',
+                                },
+                              ],
+                              value: 'Mermaid Elite Wall Panelling Collection - ',
+                              nodeType: 'text',
+                            },
+                            {
+                              data: {},
+                              marks: [],
+                              value: 'Featuring Athena Marble, Milano Marble, and Himalayan Marble',
+                              nodeType: 'text',
+                            },
+                          ],
+                          nodeType: 'paragraph',
+                        },
+                      ],
+                      nodeType: 'list-item',
+                    },
+                  ],
+                  nodeType: 'unordered-list',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: '',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'heading-4',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Using Marble In Bathroom Worktops',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'From the ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Heritage Caversham Kirkham',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' furniture range comes a marble single-length worktop. ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Atlanta Bathrooms',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' also have a ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Carrara Marble ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'worktop, in a stylish laminate finish with depths available to suit.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: '',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'heading-4',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Using Marble Baths',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Finally for the penultimate marble-inspired bathroom addition the ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Heritage Wenlock ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'is a stunning freestanding bath choice. Perfect for making a statement, this is the luxury bath choice that will certainly take centre stage.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'heading-4',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Design Your Bathroom Using The Marble Mania Trend',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Hopefully, this short informative article has given you plentiful bathroom inspiration on what you can achieve when creating your own marble-inspired bathroom. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'If you’re considering adding marble to your bathroom design and would like some expert help, ',
+                      marks: [
+                        {
+                          type: 'italic',
+                        },
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/book-appointment',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: 'book an appointment ',
+                          marks: [
+                            {
+                              type: 'italic',
+                            },
+                            {
+                              type: 'bold',
+                            },
+                          ],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'with The Bathroom Showroom. Experts in all things bathrooms, we can help turn your dream bathroom into a reality.',
+                      marks: [
+                        {
+                          type: 'italic',
+                        },
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+      ],
+      __typename: 'SitePageContentComponentsCollection',
+    },
+    __typename: 'SitePageContent',
+  },
+  {
+    published: '2022-12-14T00:00:00.000Z',
+    slug: '/blogs/design-a-charming-jack-and-jill-bathroom-design',
+    previewDescription: 'If you’re looking for a personalised bathroom with a difference then a Jack and Jill bathroom layout may just be the thing. ',
+    previewTitle: 'Design a Charming Jack and Jill Bathroom Design',
+    previewImage: {
+      url: 'https://images.ctfassets.net/g44e4oo0e2sa/4eCfB7y8qfHHj7KlaNFjFK/35c3f2b86f0a8087995882acf9566301/Scandi.jpg',
+      title: 'Scandi',
+      description: null,
+      __typename: 'Asset',
+    },
+    componentsCollection: {
+      items: [
+        {
+          __typename: 'ConstructorComponentBanner',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'If you’re looking for a personalised bathroom with a difference then a Jack and Jill bathroom layout may just be the thing. A favoured bathroom design, Jack and Jill bathrooms are immensely popular with those that have larger homes. Yet, they’re also an ideal choice for couples and indeed families with children who need a more accessible ensuite bathroom space. These bathroom types can also be considered a cost-effective design when used instead of creating a brand-new extra bathroom space. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Here, The Bathroom Showroom explains a Jack and Jill bathroom in more detail and shows you how to create the best solution for your needs. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'A Jack and Jill Bathroom Meaning',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: "Firstly, many people often wonder why is it called a Jack and Jill bathroom? Quite simply, a Jack and Jill bathroom is one bathroom. Yet, how it's accessed is what makes it the most convenient of spaces. ",
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'A Jack and Jill bathroom will have two entrances for enhanced convenience. Entering the bathroom from two different points, the most common way to access this type of bathroom is from the bedrooms. Ultimately, this means such a space is available to the occupants of each bedroom while remaining a private bathroom. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'Likewise, a Jack and Jill bathroom layout will usually strive to include two basins. This is a fantastic way to reduce the frustration felt by many when two of you are trying to use the bathroom at the same time! Though you can opt to add additional fittings and fixtures into this room, Jack and Jill bathrooms tend to have just one toilet and one bath or shower space. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'heading-4',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'What Are the Advantages of a Jack and Jill Bathroom?',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'There are many benefits of owning and sharing a Jack and Jill bathroom, including:',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'unordered-list',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Jack and Jill bathrooms make fantastic couple bathroom designs. This way, both of you can use the bathroom when getting ready in the morning and evening without having to wait your turn. ',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Young children using a Jack and Jill bathroom with their siblings can get ready for school stress-free, as there’s more than one basin area. And, they can also learn from one another as this shared bathroom space can encourage a sense of independence and responsibility for self-care. ',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'When it comes to having guests stay over in your separate bedrooms, the Jack and Jill bathroom can be accessed by both. With a lock on both rooms to ensure continued privacy, having two separate basins allows guests to claim one each for their own use during their stay. ',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Opting for a Jack and Jill bathroom as opposed to two bathrooms can help reduce bathroom costs, maintenance costs, and cleaning costs!',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'By creating a fabulous Jack and Jill bathroom to suit, you free up space in your home by eliminating that second bathroom. Therefore, you can create space for other additional home improvements such as increased bedroom space, office space, or gym space.',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: '',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'heading-4',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: '         Jack and Jill Bathroom Ideas From The Bathroom Showroom',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Here at The Bathroom Showroom, we have a wide variety of bathroom furniture that you can incorporate into any dream Jack and Jill bathroom suite. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'heading-5',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Countertop Basins:',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'This type of bathroom setting is perfect for ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/blogs/would-your-bathroom-suit-a-countertop-basin',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: 'two countertop basins',
+                          marks: [],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: '. The most modern bathroom fixtures and countertop basins add a stunning aesthetic and the most perfect finishing touch to a Jack and Jill bathroom. Offering a vast selection of shapes, sizes, and styles, countertop basins are the more versatile choices. From',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' iflo',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' to ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Roca',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ', placing two of these fabulous modern basin designs side by side creates an amazing statement piece in this space. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'heading-5',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Mirrors: ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'The best bathroom mirrors for Jack and Jill bathrooms are those that promote a clear divide and finish between the basin and ceiling. Encouraging maximum light and brightness, two of the same circular mirrors placed in a Jack and Jill bathroom look stunning. What’s more, those mirrors that boast a little elevation in their design, like the remarkable ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Hib Solas',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ', will enhance the features in this room and complete the design while creating an all-around more pleasant environment. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'heading-5',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Task Lighting:',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'To complete a Jack and Jill bathroom, the final addition is lighting that can aid all your bathroom tasks. ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/blogs/the-best-decorative-lights-for-bathroom-inspiration',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: 'Task lighting',
+                          marks: [],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' is usually concentrated around the basin and mirror area of a bathroom, yet in this bathroom design, it also doubles up to create a gorgeous complete vanity section. Here you can layer your task lighting to perform a function while adding a wonderful sense of ambience for all using this area. Spa lighting such as the',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' Spa Helsinki ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'and ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Spa Corvus',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' is perfect for providing a decorative effect over your basin area and offering a high-end finish.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'The Best Bathroom Design for a Shared Space',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'A Jack and Jill bathroom is the perfect solution if you’re looking to further create the most convenient and practical bathroom solutions. Yet, this bathroom design also allows you to show off your creative skills when selecting your basin, mirror, and lighting choices.',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'italic',
+                        },
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'If you’re considering creating a Jack and Jill style bathroom, ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {
+                        uri: 'https://www.bathrooms.com/book-appointment',
+                      },
+                      content: [
+                        {
+                          data: {},
+                          marks: [
+                            {
+                              type: 'italic',
+                            },
+                            {
+                              type: 'bold',
+                            },
+                          ],
+                          value: 'book an appointment',
+                          nodeType: 'text',
+                        },
+                      ],
+                      nodeType: 'hyperlink',
+                    },
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'italic',
+                        },
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: ' with The Bathroom Showroom. Experts in all things bathrooms, we can help turn your dream bathroom into a reality.',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+      ],
+      __typename: 'SitePageContentComponentsCollection',
+    },
+    __typename: 'SitePageContent',
+  },
+  {
+    published: '2022-12-12T00:00:00.000Z',
+    slug: '/blogs/stylish-bathroom-worktops-for-neat-design-finishes',
+    previewDescription: 'A stylish bathroom worktop is a perfect way to add an interesting feature to this space.',
+    previewTitle: ' Stylish Bathroom Worktops for Neat Design Finishes',
+    previewImage: {
+      url: 'https://images.ctfassets.net/g44e4oo0e2sa/o4tRX0wmcLZajwk5QDheo/853ebeae15fd5df57904ae8be2118730/07_CreamyWhiteJupiterSilver_1.jpg',
+      title: '07_CreamyWhiteJupiterSilver_1.jpg',
+      description: null,
+      __typename: 'Asset',
+    },
+    componentsCollection: {
+      items: [
+        {
+          __typename: 'ConstructorComponentBanner',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'A stylish bathroom worktop is a perfect way to add an interesting feature to this space. One of the most practical additions to the bathroom, a worktop offers an essential working surface for all users. Yet, if you can select a stunning choice here, you can also make this your bathroom statement or focal piece.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Adding a stylish bathroom worktop to your room is a simple task and ideal for rejuvenating the area. Worktops can be added as a standalone fitting, or fully complement your choice of bathroom suite.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Here at The Bathroom Showroom, we look at worktops for the bathroom, considering how they could help you finish your dream bathroom design. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'What is a Bathroom Worktop?',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'A bathroom worktop is a solid surface countertop that can be placed over or on several bathroom fixtures. Most commonly, bathroom worktops are used to create more surface space over units, drawers, toilet units, and vanity areas. Often considered an extension, they’re a practical solution for storing items permanently and when users need to complete their daily bathroom tasks. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'heading-4',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'What Type of Material is a Bathroom Worktop?',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'One of the most popular choices of bathroom countertop material is',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' laminate',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ". However, you'll also find other choices including ",
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'concrete, ceramic/porcelain tile, natural stone, ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'and ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'solid-surface',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: '.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Laminate ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: "is considered the more accessible as it’s an inexpensive material and available in a wide range of colours and patterns. Yet, it's a substantially lightweight material and often not the friendliest of DIY projects when creating a custom-sized design.  ",
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Concrete ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'is deemed to be the most on-trend of countertop materials and remains a most durable and strong choice. Yet, it usually needs specialist installation and if it does crack, will need an entire replacement as it’s not a repairable material choice. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Ceramic or porcelain tile ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'worktops are easier to install and DIY-friendly options. With a wide selection of design options, they remain the more affordable of designs. Yet, tiles can crack under impact while the grout lines between tiles will need regular and careful maintenance. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Natural stone',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' bathroom worktops boast a premium-looking material and a premium-looking finish, making them ideal for luxury bathroom designs. Natural stone countertops are also unique, with no two worktops ever the same. Yet, such quality comes at a price, with natural stone being the most expensive countertop material. Some often find natural stone worktops more demanding regarding ongoing maintenance also. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Solid surface ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'countertops are claimed to be the easier material to care for and effortlessly shaped while providing consistent patterns and colouring. Yet, these are the more challenging worktops to find for DIY projects. Some tend to find the look of stone worktops a little artificial, while others claim this material often scorches when the heat of curling irons, for example, comes into contact with it.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Can I Use Any Type of Worktop in the Bathroom?',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: "It’s important to select a worktop that's suitable for the bathroom environment. Bathroom countertops tend to be slightly shorter and thinner than those designated for the kitchen. They will also need to cope with a lot of wear and tear in this room which a kitchen worktop may not be able to handle. This includes ongoing exposure to moisture, alongside specific bathroom substances, stains, and cleaning products.",
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Can a Bathroom Worktop Be Cut To Size?',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'With such a wide variety of bathroom worktop sizes available, it’s easy selecting a size that works with your current bathroom space. Getting a good fit here will ensure you don’t have any unnecessary waste. However, you can also cut your bathroom worktop to size by using a jigsaw.',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'heading-4',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Bathroom Worktops From The Bathroom Showroom',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'At The Bathroom Showroom, we offer a tremendous selection of stylish worktops you can use in your bathroom for maximum design impact.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'With reputable brands including',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' Ideal Standard',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' to ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Roca, Britton',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' to ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Atlanta,',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' and ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'Heritage',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' to ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'iflo',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ', and from slim to standard sizes, there’s a bathroom worktop to suit all decor and preferences.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Worktops for Bathrooms Can Add an Overall Stunning Aesthetic to This Space',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'Durable, hygienic, and resilient, a worktop specially made for the bathroom environment can add a focal point to this space or coordinate beautifully with your current design features. Overall, one of the most practical bathroom additions, worktops are a sound investment for this room as they offer increased functionality and practicality and allow all users to get more done when using this environment. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'italic',
+                        },
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'If you’re considering adding a stylish bathroom worktop, ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {
+                        uri: 'https://www.bathrooms.com/book-appointment',
+                      },
+                      content: [
+                        {
+                          data: {},
+                          marks: [
+                            {
+                              type: 'underline',
+                            },
+                            {
+                              type: 'italic',
+                            },
+                            {
+                              type: 'bold',
+                            },
+                          ],
+                          value: 'book an appointment',
+                          nodeType: 'text',
+                        },
+                      ],
+                      nodeType: 'hyperlink',
+                    },
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'italic',
+                        },
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: ' with The Bathroom Showroom. Experts in all things bathrooms, we can help turn your dream bathroom into a reality.',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [],
+                      value: ' ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+      ],
+      __typename: 'SitePageContentComponentsCollection',
+    },
+    __typename: 'SitePageContent',
+  },
 ];
 
 export const chooseBlog = (startArticle: number, endArticle:number) => {
@@ -4264,12 +8020,17 @@ export const chooseBlog = (startArticle: number, endArticle:number) => {
   return result;
 };
 
-export const mockForBlogsListing = (startArticle: number, endArticle:number) => {
+export const mockForBlogsListing = (
+  startArticle = 0,
+  endArticle = 7,
+  totalArticles = 13,
+  isDatePickerEnabled = true,
+) => {
   const mock = {
     pageListingCollection: {
       items: [
         {
-          datePicker: true,
+          datePicker: isDatePickerEnabled,
           filtersCollection: {
             items: [
               {
@@ -4286,11 +8047,20 @@ export const mockForBlogsListing = (startArticle: number, endArticle:number) => 
                 ],
                 __typename: 'FilterGroup',
               },
+              {
+                title: 'Styles',
+                filters: [
+                  'Modern',
+                  "80's style",
+                  'Minimalistic',
+                ],
+                __typename: 'FilterGroup',
+              },
             ],
             __typename: 'PageListingFiltersCollection',
           },
           listCollection: {
-            total: 113,
+            total: totalArticles,
             items: chooseBlog(startArticle, endArticle),
             __typename: 'PageListingListCollection',
           },

@@ -136,6 +136,9 @@ test.describe('Tests for Blogs listing page: ', () => {
   });
 
   test('BCOM-7, "Load more" button UI', async () => {
+    await expect.soft(blogList.mainArticle).toHaveCount(1);
+    await expect.soft(blogList.regularArticles).toHaveCount(6);
+
     await blogList.loadMoreBtn.scrollIntoViewIfNeeded();
 
     await expect(blogList.loadMoreBtn).toBeVisible();

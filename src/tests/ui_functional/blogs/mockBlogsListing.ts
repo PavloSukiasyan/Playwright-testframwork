@@ -8013,6 +8013,1386 @@ const blogsArticleArray = [
     },
     __typename: 'SitePageContent',
   },
+  {
+    published: '2022-11-25T00:00:00.000Z',
+    slug: '/blogs/layer-your-bathroom-lighting-with-plinth-lights',
+    previewDescription: 'When choosing your bathroom lighting, being able to layer it offers you more scope for creativity in this room. ',
+    previewTitle: 'Layer Your Bathroom Lighting With Plinth Lights',
+    previewImage: {
+      url: 'https://images.ctfassets.net/g44e4oo0e2sa/3oqNulLu2DWyWccz8U8lcx/61adefaa1a85e78f3c3666edac52fce6/Japandi_ensuite.jpg',
+      title: 'Japandi ensuite.jpg',
+      description: null,
+      __typename: 'Asset',
+    },
+    componentsCollection: {
+      items: [
+        {
+          __typename: 'ConstructorComponentBanner',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'When choosing your bathroom lighting, being able to layer it offers you more scope for creativity in this room. With so many bathroom light fixtures this is one area where many feel spoiled for choice! ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'But, if you’re simply looking for a quick and easy way to layer your bathroom lighting then plinth lights could just be a perfect choice. A spectacular way to enhance your current lighting scheme, plinth lights light up a bathroom and give it that ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'wow',
+                      marks: [
+                        {
+                          type: 'italic',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' factor.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Here, The Bathroom Showroom offers a quick guide to plinth lights, showing how they can help build your lighting selection,  while showcasing one of the most fabulous ranges available exclusively from our showroom.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'What Is a Plinth Light?',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'Plinth lights are simply decorative light fixtures that are available as kits, strip lights, or individual lights. Designed to provide an effortless and understated lighting addition to a room, plinth lights fit into flat surfaces and will lie flush or offer a slightly projected finish as preferred. Ultimately, the result is a neat and spectacularly low-level illumination where it’s required the most. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'heading-4',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'What are the Advantages of Plinth Lights in the Bathroom?',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Plinth lights are considered superb bathroom lighting additions by many due to their various benefits, including:',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'unordered-list',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'They encourage a gentle and less harsh lighting solution and are therefore easier on the eye',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'As a softer lighting choice, they lend a wonderful ambient feel to the bathroom ',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Can be used as a decorative lighting choice and add depth to the room whether at high elevation or low profile',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Ideal as task lighting choices, plinth lights can illuminate mirrors, shaver lights, bath areas, around the basin, in the wall and ceiling, or even inside the shower unit',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Can add a level of mood lighting to specific areas of the bathroom',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Are energy-efficient light choices and help you save money on your energy bills as LED lights boast a longer lifespan and use little power ',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'IP65 rated and above, making them ',
+                              marks: [],
+                              data: {},
+                            },
+                            {
+                              nodeType: 'hyperlink',
+                              data: {
+                                uri: 'https://www.bathrooms.com/blogs/bathroom-zones-and-IP-ratings-explained',
+                              },
+                              content: [
+                                {
+                                  nodeType: 'text',
+                                  value: 'water-resistant fittings',
+                                  marks: [],
+                                  data: {},
+                                },
+                              ],
+                            },
+                            {
+                              nodeType: 'text',
+                              value: '',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Available in a selection of colours, including warm, cool, and blue',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Some designs offer dimmable plinth lights ',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Very easy to install ',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Offer several light shape options ',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Plinth lights are easy to maintain and keep clean',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Are a good practical and low-cost idea for night light choices allowing household members to use the bathroom safely during the night',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: '',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Bathroom Plinth Lights From The Bathroom Showroom',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'At The Bathroom Showroom, we’re proud to offer a selection of plinth kits from the smart lighting solutions ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Pro Light',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [],
+                      value: ' collection.  ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'Available as a five-light LED plinth kit, the ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Pro-Light ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'range provides choices of warm white, cool light, and blue light LED options and are all 48lm and 0.6W. All IP68 rated, meaning you can use this in direct contact with water jets, these plinth kits are suitable for bathrooms and wet room installations.',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'Most commonly used as low-level bathroom plinths, the',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: ' Pro-light',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [],
+                      value: ' range creates the most stunning of background effects. With the ability to simply plug and play, the wire design of these plinth kits also allows you to wire them directly into the mains to suit. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'Better still, with the ability to connect multiple kits here, you even have the fabulous option of using up to a staggering 13 lights from just one power source!',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Bathroom Lighting Ideas to Help You Make the Most of Your Dream Bathroom',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'Not only are plinth lights easier on the eye, but this gentle soft lighting addition can also add an instant ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'italic',
+                        },
+                      ],
+                      value: 'different',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [],
+                      value: ' feel to the bathroom environment. Whether used to layer up your current ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {
+                        uri: 'https://www.bathrooms.com/list/buying-guides/lighting',
+                      },
+                      content: [
+                        {
+                          data: {},
+                          marks: [],
+                          value: 'bathroom lighting',
+                          nodeType: 'text',
+                        },
+                      ],
+                      nodeType: 'hyperlink',
+                    },
+                    {
+                      data: {},
+                      marks: [],
+                      value: ' scheme or provide an additional ambient lighting source, plinth lights are certainly advantageous light fittings when you’re looking to keep energy bills low but still want to keep the lights on!',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'italic',
+                        },
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'If you’re considering bathroom lighting, ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {
+                        uri: 'https://www.bathrooms.com/book-appointment',
+                      },
+                      content: [
+                        {
+                          data: {},
+                          marks: [
+                            {
+                              type: 'italic',
+                            },
+                            {
+                              type: 'bold',
+                            },
+                          ],
+                          value: 'book an appointment',
+                          nodeType: 'text',
+                        },
+                      ],
+                      nodeType: 'hyperlink',
+                    },
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'italic',
+                        },
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: ' with The Bathroom Showroom. Experts in all things bathrooms, we can help turn your dream bathroom into a reality.',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+      ],
+      __typename: 'SitePageContentComponentsCollection',
+    },
+    __typename: 'SitePageContent',
+  },
+  {
+    published: '2022-11-23T00:00:00.000Z',
+    slug: '/blogs/why-wall-hung-bathroom-furniture-is-so-popular',
+    previewDescription: 'With many of us trying to make our bathrooms more functional, wall-hung bathroom furniture is a fantastic design choice solution.',
+    previewTitle: 'Why Wall Hung Bathroom Furniture Is So Popular',
+    previewImage: {
+      url: 'https://images.ctfassets.net/g44e4oo0e2sa/ZJX2hWQtSPhAfeSkyuVCX/a904ed779f80365149080a838141f965/iflo_Rhea_for_Nav.jpg',
+      title: 'iflo Rhea ',
+      description: null,
+      __typename: 'Asset',
+    },
+    componentsCollection: {
+      items: [
+        {
+          __typename: 'ConstructorComponentBanner',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'With many of us trying to make our bathrooms more functional, wall-hung bathroom furniture is a fantastic design choice solution. Streamlined, multi-purpose, and stunning, adding wall-hung furniture to the bathroom can invigorate your bathroom space bringing with it many additional advantages.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'The Bathroom Showroom looks at the rising popularity of wall-hung bathroom furniture. Taking a look at its construction, availability, and advantages we highlight the immediate benefits of choosing wall-hung bathroom suites for your own space. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'heading-4',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'What Is Wall Hung Bathroom Furniture?',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Wall-hung furniture is simply furniture designed to be attached to a wall or hung from it. This means it’s taken off the floor and suspended at a height to suit. The effect is an illusion of floating and an increased floor area as your bathroom is opened up.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'There are several wall-hung furniture types available for the bathroom including, wall hung toilets, wall-hung basins, and wall-hung units.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'A ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'wall-hung toilet ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'is a streamlined fixture as not only does the toilet itself sit off the floor, all the pipes and fittings and even the cistern are hidden in the wall. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'A',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ' wall-hung basin ',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'is a floating fixture that is mounted to the wall using wall-fixing bolts. These choices can also be placed onto wall-hung vanity units to complete the look, thus hiding all the pipework.',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'A ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'wall-hung unit',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ', or a ',
+                      marks: [],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'wall-hung vanity unit',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'text',
+                      value: ', is a clever floating unit that offers a superb storage solution in the bathroom. Thoroughly practical, they can be used on their own or hold a wall-hung basin, thus increasing their functionality. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Why is Wall Hung Bathroom Furniture So Popular?',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'There are several reasons why wall-hung bathroom furniture is so popular when creating a dream bathroom, including:',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      content: [
+                        {
+                          data: {},
+                          content: [
+                            {
+                              data: {},
+                              marks: [],
+                              value: 'Wall-hung bathroom furniture is perfect for small bathrooms as it creates the illusion of space. As the light is allowed to flow uninterrupted underneath these units, it can help greatly to open up the room and allow light to stream freely through it.',
+                              nodeType: 'text',
+                            },
+                          ],
+                          nodeType: 'paragraph',
+                        },
+                      ],
+                      nodeType: 'list-item',
+                    },
+                    {
+                      data: {},
+                      content: [
+                        {
+                          data: {},
+                          content: [
+                            {
+                              data: {},
+                              marks: [],
+                              value: 'Wall-hung bathroom furniture also works well for large bathroom designs as it promotes a modern streamlined look thus allowing you more space to either move around the room or add more fixtures and fittings to suit.',
+                              nodeType: 'text',
+                            },
+                          ],
+                          nodeType: 'paragraph',
+                        },
+                      ],
+                      nodeType: 'list-item',
+                    },
+                    {
+                      data: {},
+                      content: [
+                        {
+                          data: {},
+                          content: [
+                            {
+                              data: {},
+                              marks: [],
+                              value: 'Wall-hung units help keep the floor free from clutter and dirt and are therefore easier to manoeuvre around when it comes to cleaning underneath them. This allows you to ',
+                              nodeType: 'text',
+                            },
+                            {
+                              data: {
+                                uri: 'https://www.bathrooms.com/blogs/clean-your-bathroom-easier-with-wall-hung-units',
+                              },
+                              content: [
+                                {
+                                  data: {},
+                                  marks: [],
+                                  value: 'cut your cleaning time down significantly',
+                                  nodeType: 'text',
+                                },
+                              ],
+                              nodeType: 'hyperlink',
+                            },
+                            {
+                              data: {},
+                              marks: [],
+                              value: '. ',
+                              nodeType: 'text',
+                            },
+                          ],
+                          nodeType: 'paragraph',
+                        },
+                      ],
+                      nodeType: 'list-item',
+                    },
+                  ],
+                  nodeType: 'unordered-list',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: '',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'unordered-list',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Wall-hung units are available in a wide range of designs, whether traditional, contemporary, or modern. This means they work well in all bathroom decors.',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Wall-hung vanity units can be modified to create a most personalised but thoroughly practical space. Offering a place for items usually left on and around the basin, a wall-hung unit fitted under the basin provides the perfect space for essential bathroom items while keeping them out of view.',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'list-item',
+                      data: {},
+                      content: [
+                        {
+                          nodeType: 'paragraph',
+                          data: {},
+                          content: [
+                            {
+                              nodeType: 'text',
+                              value: 'Wall-hung furniture can be used to create a brand-new bathroom design or chosen to swiftly update the space. It can also be used as a focal point in the room to make a design statement. ',
+                              marks: [],
+                              data: {},
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: '',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              data: {},
+              content: [
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Choose The Bathroom Showroom for Your Wall Hung Bathroom Furniture Requirements',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'heading-4',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'Here at The Bathroom Showroom, we’re proud to offer many sought-after wall-hung units to suit all individual requirements. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'From the ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'iflo Rhea Furniture Collection',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [],
+                      value: ', you can opt for a thoroughly modern wall-hung toilet, a wall-hung unit, and a vanity wash basin that can be placed on the wall-hung unit. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+                {
+                  data: {},
+                  content: [
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'The ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'iflo Serino Furniture Collection',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [],
+                      value: ', ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Roca The Gap Collection',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [],
+                      value: ', and the ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'Ideal Standard i.life S Collection ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'also boast streamlined wall-hung toilets, while the ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'iflo Galene Collection',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [],
+                      value: ' and ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      value: 'iflo Trapini ',
+                      nodeType: 'text',
+                    },
+                    {
+                      data: {},
+                      marks: [],
+                      value: 'promote a spectacular selection of wall-hung unit choices. ',
+                      nodeType: 'text',
+                    },
+                  ],
+                  nodeType: 'paragraph',
+                },
+              ],
+              nodeType: 'document',
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+        {
+          text: {
+            json: {
+              nodeType: 'document',
+              data: {},
+              content: [
+                {
+                  nodeType: 'heading-4',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'Bathroom Wall Hung Units Are a Stylish and Stunning Addition to This Space',
+                      marks: [
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'A superb way of elevating both the space and the entire feel of your bathroom, wall-hung bathroom furniture helps you to use this environment more efficiently. An incredible addition to the bathroom, their streamlined and spectacular clean-cut design features add a stunning aesthetic to all bathroom types while providing an important practical and functional element in the process. ',
+                      marks: [],
+                      data: {},
+                    },
+                  ],
+                },
+                {
+                  nodeType: 'paragraph',
+                  data: {},
+                  content: [
+                    {
+                      nodeType: 'text',
+                      value: 'If you’re considering adding wall hung bathroom furniture, ',
+                      marks: [
+                        {
+                          type: 'italic',
+                        },
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                    {
+                      nodeType: 'hyperlink',
+                      data: {
+                        uri: 'https://www.bathrooms.com/book-appointment',
+                      },
+                      content: [
+                        {
+                          nodeType: 'text',
+                          value: 'book an appointment ',
+                          marks: [
+                            {
+                              type: 'italic',
+                            },
+                            {
+                              type: 'bold',
+                            },
+                          ],
+                          data: {},
+                        },
+                      ],
+                    },
+                    {
+                      nodeType: 'text',
+                      value: 'with The Bathroom Showroom. Experts in all things bathrooms, we can help turn your dream bathroom into a reality.',
+                      marks: [
+                        {
+                          type: 'italic',
+                        },
+                        {
+                          type: 'bold',
+                        },
+                      ],
+                      data: {},
+                    },
+                  ],
+                },
+              ],
+            },
+            __typename: 'PageContentBlockText',
+          },
+          __typename: 'PageContentBlock',
+        },
+      ],
+      __typename: 'SitePageContentComponentsCollection',
+    },
+    __typename: 'SitePageContent',
+  },
 ];
 
 export const chooseBlog = (startArticle: number, endArticle:number) => {
@@ -8023,7 +9403,7 @@ export const chooseBlog = (startArticle: number, endArticle:number) => {
 export const mockForBlogsListing = (
   startArticle = 0,
   endArticle = 7,
-  totalArticles = 13,
+  totalArticles = 15,
   isDatePickerEnabled = true,
 ) => {
   const mock = {

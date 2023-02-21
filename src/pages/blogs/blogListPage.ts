@@ -20,4 +20,19 @@ export default class BlogListPage {
   dateOfMainArticle = this.articleInfoMain.locator('span[class*="notes-default margin"]');
 
   readingOfMainArticle = this.articleInfoMain.locator('span.undefined.notes-default');
+
+  imgOfMainArticle = this.mainArticle.locator('[data-testid="image-container"]');
+
+  // --
+  regularArticles = this.articlesBlock.locator('[data-testid="regular-article-block"]');
+
+  getRegArticleByIndex = (i: number) => this.regularArticles.nth(i);
+
+  titlesRegArticles = this.regularArticles.locator('p[class*="RegularArticleBlock_highlightText"]');
+
+  getRegTitleByIndex = (i: number) => this.getRegArticleByIndex(i).locator('p[class*="RegularArticleBlock_highlightText"]');
+
+  // --
+
+  loadMoreBtn = this.page.locator('button[data-testid="load-more-btn"]');
 }

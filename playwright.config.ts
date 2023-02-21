@@ -15,6 +15,7 @@ const config: PlaywrightTestConfig = {
 
   /* Maximum time one test can run for. */
   timeout: 60 * 1000,
+  // repeatEach: 5,
   expect: {
     /**
      * Maximum time expect() should wait for the condition to be met.
@@ -42,7 +43,7 @@ const config: PlaywrightTestConfig = {
     ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    viewport: { width: 1680, height: 1050 },
+    viewport: { width: 1920, height: 1080 },
     headless: false,
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 0,

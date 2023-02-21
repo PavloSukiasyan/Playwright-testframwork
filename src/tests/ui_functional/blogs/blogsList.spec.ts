@@ -81,10 +81,75 @@ test.describe('Tests for Blogs listing page: ', () => {
     await expect.soft(blogList.readingOfMainArticle).toHaveCSS('-webkit-line-clamp', 'none');
     await expect.soft(blogList.readingOfMainArticle).toHaveCSS('color', 'rgb(96, 111, 128)');
 
+    await expect.soft(blogList.imgOfMainArticle).toBeVisible();
+    await expect.soft(blogList.imgOfMainArticle).toHaveCSS('width', '496px');
+    await expect.soft(blogList.imgOfMainArticle).toHaveCSS('height', '352px');
+
     await expect.soft(blogList.btnMainArticle).toHaveText('Read more');
     await expect.soft(blogList.btnMainArticle).toHaveCSS('color', 'rgb(255, 255, 255)');
     await expect.soft(blogList.btnMainArticle).toHaveCSS('background-color', 'rgb(60, 113, 188)');
   });
 
   // ToDo regular articles test,  tests with load more + filtering
+  test('BCOM-6, regular articles titles', async () => {
+    await expect.soft(blogList.regularArticles).toHaveCount(6);
+    await expect.soft(blogList.titlesRegArticles).toHaveCount(6);
+
+    const regularTitles = [
+      'What Showers Are Best for Small Bathrooms?',
+      'Get Creative with Your Bathroom Lighting',
+      'What Is the Future of Bathroom Technology?',
+      'Would Your Bathroom Benefit From a Water Softener?',
+      'Add Luxury to Your Bathroom with Underfloor Heating',
+      'Copy Add Luxury to Your Bathroom with Underfloor Heating',
+    ];
+
+    /* eslint no-restricted-syntax: ["error", "BinaryExpression[operator='in']"] */
+    for (const title of regularTitles) {
+      await blogList.getRegTitleByIndex(regularTitles.indexOf(title)).scrollIntoViewIfNeeded();
+      await expect.soft(blogList.getRegTitleByIndex(regularTitles.indexOf(title)))
+        .toHaveText(title);
+    }
+  });
+
+  test('BCOM-7, regular articles titles', async () => {
+    await expect.soft(blogList.regularArticles).toHaveCount(6);
+    await expect.soft(blogList.titlesRegArticles).toHaveCount(6);
+
+    const regularTitles = [
+      'What Showers Are Best for Small Bathrooms?',
+      'Get Creative with Your Bathroom Lighting',
+      'What Is the Future of Bathroom Technology?',
+      'Would Your Bathroom Benefit From a Water Softener?',
+      'Add Luxury to Your Bathroom with Underfloor Heating',
+      'Copy Add Luxury to Your Bathroom with Underfloor Heating',
+    ];
+
+    /* eslint no-restricted-syntax: ["error", "BinaryExpression[operator='in']"] */
+    for (const title of regularTitles) {
+      await expect(blogList.getRegTitleByIndex(regularTitles.indexOf(title)))
+        .toBeVisible();
+      await blogList.getRegTitleByIndex(regularTitles.indexOf(title)).scrollIntoViewIfNeeded();
+      await expect.soft(blogList.getRegTitleByIndex(regularTitles.indexOf(title)))
+        .toHaveText(title);
+    }
+  });
+
+  test('BCOM-7, "Load more" button UI', async () => {
+    await expect.soft(blogList.mainArticle).toHaveCount(1);
+    await expect.soft(blogList.regularArticles).toHaveCount(6);
+
+    await blogList.loadMoreBtn.scrollIntoViewIfNeeded();
+
+    await expect(blogList.loadMoreBtn).toBeVisible();
+    await expect.soft(blogList.loadMoreBtn).toHaveText('Load more');
+    await expect.soft(blogList.loadMoreBtn).toHaveCSS('font-size', '16px');
+    await expect.soft(blogList.loadMoreBtn).toHaveCSS('font-weight', '400');
+    await expect.soft(blogList.loadMoreBtn).toHaveCSS('font-family', /Helvetica Neue/);
+    await expect.soft(blogList.loadMoreBtn).toHaveCSS('text-align', 'left');
+    await expect.soft(blogList.loadMoreBtn).toHaveCSS('width', '212px');
+    await expect.soft(blogList.loadMoreBtn).toHaveCSS('height', '40px');
+    await expect.soft(blogList.loadMoreBtn).toHaveCSS('color', 'rgb(13, 45, 92)');
+    await expect.soft(blogList.loadMoreBtn).toHaveCSS('background-color', 'rgb(240, 243, 246)');
+  });
 });

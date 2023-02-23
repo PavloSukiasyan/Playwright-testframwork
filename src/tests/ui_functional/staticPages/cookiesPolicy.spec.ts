@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import CONTENTFUL_URL from '../../../helper/constant';
 import { routeHelper } from '../../../helper/routeHelper';
 import { CommonSteps } from '../../../pages/commonSteps';
 import BreadCrumbsComponent from '../../../pages/components/breadcrumbs';
@@ -17,7 +18,7 @@ test.describe('Tests for Static - Cookies policy page: ', () => {
     await commonSteps.goToHomePage();
 
     // Mock
-    await routeHelper(page, 'content/v1/spaces/g44e4oo0e2sa/environments/master', mockForCookiesPolicy);
+    await routeHelper(page, CONTENTFUL_URL, mockForCookiesPolicy);
 
     // click footer link
     await footer.navigationPart.waitFor();

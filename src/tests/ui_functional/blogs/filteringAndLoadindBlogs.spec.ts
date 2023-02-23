@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import CONTENTFUL_URL from '../../../helper/constant';
 import { routeHelper } from '../../../helper/routeHelper';
 import BlogListPage from '../../../pages/blogs/blogListPage';
 import CommonSteps from '../../../pages/commonSteps';
@@ -22,7 +23,7 @@ test.describe('Tests for Blogs listing page: ', () => {
   });
 
   test('BCOM-8, only seven blogs - so no "Load more" button', async ({ page }) => {
-    await routeHelper(page, 'content/v1/spaces/g44e4oo0e2sa/environments/master', mockForBlogsListing(0, 7, 7, true));
+    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing(0, 7, 7, true));
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
@@ -34,7 +35,7 @@ test.describe('Tests for Blogs listing page: ', () => {
   });
 
   test('BCOM-9, "Load more" button loads six more, and button then hides', async ({ page }) => {
-    await routeHelper(page, 'content/v1/spaces/g44e4oo0e2sa/environments/master', mockForBlogsListing(0, 7, 13, true));
+    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing(0, 7, 13, true));
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
@@ -44,7 +45,7 @@ test.describe('Tests for Blogs listing page: ', () => {
 
     await expect.soft(blogList.loadMoreBtn).toBeVisible();
 
-    await routeHelper(page, 'content/v1/spaces/g44e4oo0e2sa/environments/master', mockForBlogsListing(7, 13, 13, true));
+    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing(7, 13, 13, true));
     await blogList.loadMoreBtn.click();
 
     await expect.soft(blogList.mainArticle).toHaveCount(1);
@@ -54,7 +55,7 @@ test.describe('Tests for Blogs listing page: ', () => {
   });
 
   test('BCOM-10, "Load more" button loads six more, and button then still visible', async ({ page }) => {
-    await routeHelper(page, 'content/v1/spaces/g44e4oo0e2sa/environments/master', mockForBlogsListing(0, 7, 15, true));
+    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing(0, 7, 15, true));
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
@@ -64,7 +65,7 @@ test.describe('Tests for Blogs listing page: ', () => {
 
     await expect.soft(blogList.loadMoreBtn).toBeVisible();
 
-    await routeHelper(page, 'content/v1/spaces/g44e4oo0e2sa/environments/master', mockForBlogsListing(7, 13, 15, true));
+    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing(7, 13, 15, true));
     await blogList.loadMoreBtn.click();
 
     await expect.soft(blogList.mainArticle).toHaveCount(1);

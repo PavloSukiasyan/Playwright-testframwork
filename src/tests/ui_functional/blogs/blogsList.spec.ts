@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { routeHelper } from '../../../helper/routeHelper';
+import { getCssPropertyValue } from '../../../helper/uiHelpers';
 import BlogListPage from '../../../pages/blogs/blogListPage';
 import { CommonSteps } from '../../../pages/commonSteps';
 import BreadCrumbsComponent from '../../../pages/components/breadcrumbs';
@@ -151,5 +152,25 @@ test.describe('Tests for Blogs listing page: ', () => {
     await expect.soft(blogList.loadMoreBtn).toHaveCSS('height', '40px');
     await expect.soft(blogList.loadMoreBtn).toHaveCSS('color', 'rgb(13, 45, 92)');
     await expect.soft(blogList.loadMoreBtn).toHaveCSS('background-color', 'rgb(240, 243, 246)');
+  });
+
+  test('BCOM-11, Main article and three regulars in a row', async () => {
+    await expect.soft(blogList.mainArticle).toBeVisible();
+
+    await expect.soft(blogList.regularArticles.nth(0)).toBeVisible();
+    await expect.soft(blogList.regularArticles.nth(1)).toBeVisible();
+    await expect.soft(blogList.regularArticles.nth(2)).toBeVisible();
+
+    await blogList.regularArticles.nth(2).scrollIntoViewIfNeeded();
+
+    const widthOfMainArt = await getCssPropertyValue(blogList.mainArticle, 'width');
+    const widthOfFirstRegArt = await getCssPropertyValue(blogList.regularArticles.nth(0), 'width');
+    const widthOfSecondRegArt = await getCssPropertyValue(blogList.regularArticles.nth(1), 'width');
+    const widthOfThirdRegArt = await getCssPropertyValue(blogList.regularArticles.nth(2), 'width');
+
+    // Here we will check, if three Regular articles widths are less,
+    // then Main article width + 36px in-between
+    expect(parseInt(widthOfMainArt, 10)).toBeGreaterThanOrEqual(parseInt(widthOfFirstRegArt, 10)
+      + parseInt(widthOfSecondRegArt, 10) + parseInt(widthOfThirdRegArt, 10) + 36);
   });
 });

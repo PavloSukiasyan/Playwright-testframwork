@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import CONTENTFUL_URL from '../../../helper/constant';
 import { routeHelper } from '../../../helper/routeHelper';
 import { getCssPropertyValue } from '../../../helper/uiHelpers';
 import BlogListPage from '../../../pages/blogs/blogListPage';
@@ -22,7 +23,7 @@ test.describe('Tests for Blogs listing page: ', () => {
     await commonSteps.goToHomePage();
 
     // Mock
-    await routeHelper(page, 'content/v1/spaces/g44e4oo0e2sa/environments/master', mockForBlogsListing());
+    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing());
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
@@ -91,7 +92,6 @@ test.describe('Tests for Blogs listing page: ', () => {
     await expect.soft(blogList.btnMainArticle).toHaveCSS('background-color', 'rgb(60, 113, 188)');
   });
 
-  // ToDo regular articles test,  tests with load more + filtering
   test('BCOM-6, regular articles titles', async () => {
     await expect.soft(blogList.regularArticles).toHaveCount(6);
     await expect.soft(blogList.titlesRegArticles).toHaveCount(6);

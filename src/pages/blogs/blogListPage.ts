@@ -13,7 +13,7 @@ export default class BlogListPage {
 
   descriptionMainArticle = this.mainArticle.locator('[class*="body-wide-line"]');
 
-  btnMainArticle = this.mainArticle.locator('button[class*="Button_primary"] ');
+  btnMainArticle = this.mainArticle.locator('button[class*="Button_primary"]');
 
   articleInfoMain = this.mainArticle.locator('[class*="ArticleInfo_info"]');
 
@@ -31,6 +31,8 @@ export default class BlogListPage {
   titlesRegArticles = this.regularArticles.locator('p[class*="RegularArticleBlock_highlightText"]');
 
   getRegTitleByIndex = (i: number) => this.getRegArticleByIndex(i).locator('p[class*="RegularArticleBlock_highlightText"]');
+
+  btnRegArticles = this.regularArticles.locator('button[class*="Button_primary"]');
 
   // --
 

@@ -76,30 +76,7 @@ test.describe('Tests for Blogs details page: ', () => {
     await expect.soft(blogDetail.readTime).toHaveCSS('color', 'rgb(255, 255, 255)');
   });
 
-  test('BCOM-14, date time', async () => {
-    await expect.soft(blogDetail.publishedDate).toBeVisible();
-    await expect.soft(blogDetail.publishedDate).toHaveText('Published: 1st Feb 2023');
-    await expect.soft(blogDetail.publishedDate).toHaveCSS('font-size', '14px');
-    await expect.soft(blogDetail.publishedDate).toHaveCSS('font-weight', '400');
-    await expect.soft(blogDetail.publishedDate).toHaveCSS('font-family', /Helvetica Neue/);
-    await expect.soft(blogDetail.publishedDate).toHaveCSS('text-align', 'left');
-    await expect.soft(blogDetail.publishedDate).toHaveCSS('text-overflow', 'clip');
-    await expect.soft(blogDetail.publishedDate).toHaveCSS('-webkit-line-clamp', 'none');
-    await expect.soft(blogDetail.publishedDate).toHaveCSS('color', 'rgb(255, 255, 255)');
-    await expect.soft(blogDetail.publishedDate).toHaveCSS('background-color', 'rgba(0, 0, 0, 0)');
-
-    await expect.soft(blogDetail.readTime).toBeVisible();
-    await expect.soft(blogDetail.readTime).toHaveText('Read Time: 4 min');
-    await expect.soft(blogDetail.readTime).toHaveCSS('font-size', '14px');
-    await expect.soft(blogDetail.readTime).toHaveCSS('font-weight', '400');
-    await expect.soft(blogDetail.readTime).toHaveCSS('font-family', /Helvetica Neue/);
-    await expect.soft(blogDetail.readTime).toHaveCSS('text-align', 'left');
-    await expect.soft(blogDetail.readTime).toHaveCSS('text-overflow', 'clip');
-    await expect.soft(blogDetail.readTime).toHaveCSS('-webkit-line-clamp', 'none');
-    await expect.soft(blogDetail.readTime).toHaveCSS('color', 'rgb(255, 255, 255)');
-  });
-
-  test('BCOM-15, UI', async () => {
+  test('BCOM-14, UI', async () => {
     await expect.soft(blogDetail.socialMediaCont).toBeVisible();
 
     await expect.soft(blogDetail.facebookBtn).toBeVisible();

@@ -3,8 +3,6 @@ import { Page } from '@playwright/test';
 export default class BlogListPage {
   constructor(private readonly page:Page) {}
 
-  filtersSideMenu = this.page.locator('[class*="Blogs_sideMenu"]');
-
   articlesBlock = this.page.locator('[class*="row Blogs_articlesContainer"]');
 
   mainArticle = this.articlesBlock.locator('[data-testid="main-article-block"]');
@@ -37,4 +35,20 @@ export default class BlogListPage {
   // --
 
   loadMoreBtn = this.page.locator('button[data-testid="load-more-btn"]');
+
+  // --
+
+  filterSideMenu = this.page.locator('[data-testid="filters-side-menu"]');
+
+  filterTitle = this.filterSideMenu.locator('[class*="FiltersSideMenu_titleWrapper"] h2');
+
+  filterGroups = this.filterSideMenu.locator('[data-testid="collapse"]');
+
+  filterGroupLabel = this.filterGroups.locator('h6');
+
+  getFilterDesiredGroupElements = (gIndex: number, i:number) => this.filterGroups.nth(gIndex).locator('[data-testid="checkbox"]').nth(i);
+
+  getCheckboxForDesiredGroupElements = (gIndex: number, i:number) => this.getFilterDesiredGroupElements(gIndex, i).locator('i');
+
+  activeFilter = this.filterSideMenu.locator('[data-testid="active-filter"]');
 }

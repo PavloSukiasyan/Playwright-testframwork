@@ -9471,4 +9471,19 @@ export const mockForBlogsListing = (
   return mock;
 };
 
+export const mockForFilteredBlogListing = (
+  startArticle = 0,
+  endArticle = 7,
+  totalArticles = 15,
+) => {
+  const mock = {
+    sitePageContentCollection: {
+      total: totalArticles,
+      items: chooseBlog(startArticle, endArticle),
+      __typename: 'SitePageContentCollection',
+    },
+  };
+  return mock;
+};
+
 export default mockForBlogsListing;

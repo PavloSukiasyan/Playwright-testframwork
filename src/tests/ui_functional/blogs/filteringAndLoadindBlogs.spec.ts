@@ -7,7 +7,7 @@ import CookiesPolicyComponent from '../../../pages/components/oneTrustCookiePoli
 import Footer from '../../../pages/footer';
 import mockForBlogsListing, { mockForFilteredBlogListing } from './mockBlogsListing';
 
-test.describe('Tests for Blogs listing page: ', () => {
+test.describe('Tests for Blogs listing actions page: ', () => {
   let blogList: BlogListPage;
   let footer: Footer;
 
@@ -83,9 +83,12 @@ test.describe('Tests for Blogs listing page: ', () => {
     await expect.soft(blogList.regularArticles).toHaveCount(6);
     await expect.soft(blogList.mainArticle).toHaveCount(1);
     await expect.soft(blogList.titleMainArticle).toBeVisible();
-    await expect.soft(blogList.titleMainArticle).toHaveText('Mock Add Soft Curves With Circular Bathroom Mirrors');
-    await expect.soft(blogList.getRegTitleByIndex(0)).toHaveText('What Showers Are Best for Small Bathrooms?');
-    await expect.soft(blogList.getRegTitleByIndex(1)).toHaveText('Get Creative with Your Bathroom Lighting');
+    await expect.soft(blogList.titleMainArticle)
+      .toHaveText('Mock Add Soft Curves With Circular Bathroom Mirrors');
+    await expect.soft(blogList.getRegTitleByIndex(0))
+      .toHaveText('What Showers Are Best for Small Bathrooms?');
+    await expect.soft(blogList.getRegTitleByIndex(1))
+      .toHaveText('Get Creative with Your Bathroom Lighting');
 
     await expect.soft(blogList.filterSideMenu).toBeVisible();
     await expect.soft(blogList.activeFilter).toBeHidden();
@@ -99,13 +102,15 @@ test.describe('Tests for Blogs listing page: ', () => {
     await blogList.filterGroups.nth(0).click();
     await expect.soft(blogList.filterGroups.nth(0)).toHaveAttribute('class', /.*is-open.*/);
 
-    await expect.soft(blogList.getFilterDesiredGroupElements(0, 1)).toHaveText('Baths');
-    await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1)).toHaveAttribute('class', /^(?!.*Checkbox_active).*$/);
+    await expect.soft(blogList.getDesiredGroupElement(0, 1)).toHaveText('Baths');
+    await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1))
+      .toHaveAttribute('class', /^(?!.*Checkbox_active).*$/);
 
     // Mock for first filtering
     await routeHelper(page, CONTENTFUL_URL, mockForFilteredBlogListing(10, 13, 3));
-    await blogList.getFilterDesiredGroupElements(0, 1).click();
-    await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1)).toHaveAttribute('class', /.*Checkbox_active.*/);
+    await blogList.getDesiredGroupElement(0, 1).click();
+    await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1))
+      .toHaveAttribute('class', /.*Checkbox_active.*/);
 
     await expect.soft(blogList.activeFilter).toBeVisible();
     await expect.soft(blogList.activeFilter).toHaveText('Baths');
@@ -113,22 +118,29 @@ test.describe('Tests for Blogs listing page: ', () => {
     await expect.soft(blogList.regularArticles).toHaveCount(2);
     await expect.soft(blogList.mainArticle).toHaveCount(1);
     await expect.soft(blogList.titleMainArticle).toBeVisible();
-    await expect.soft(blogList.titleMainArticle).toHaveText('Stylish Ways to Use Marble in Your Bathroom Design');
-    await expect.soft(blogList.getRegTitleByIndex(0)).toHaveText('Design a Charming Jack and Jill Bathroom Design');
-    await expect.soft(blogList.getRegTitleByIndex(1)).toHaveText('Stylish Bathroom Worktops for Neat Design Finishes');
+    await expect.soft(blogList.titleMainArticle)
+      .toHaveText('Stylish Ways to Use Marble in Your Bathroom Design');
+    await expect.soft(blogList.getRegTitleByIndex(0))
+      .toHaveText('Design a Charming Jack and Jill Bathroom Design');
+    await expect.soft(blogList.getRegTitleByIndex(1))
+      .toHaveText('Stylish Bathroom Worktops for Neat Design Finishes');
 
     // Mock for undoing filtering  (back to default)
     await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing());
-    await blogList.getFilterDesiredGroupElements(0, 1).click();
+    await blogList.getDesiredGroupElement(0, 1).click();
 
     await expect.soft(blogList.regularArticles).toHaveCount(6);
     await expect.soft(blogList.mainArticle).toHaveCount(1);
     await expect.soft(blogList.titleMainArticle).toBeVisible();
-    await expect.soft(blogList.titleMainArticle).toHaveText('Mock Add Soft Curves With Circular Bathroom Mirrors');
-    await expect.soft(blogList.getRegTitleByIndex(0)).toHaveText('What Showers Are Best for Small Bathrooms?');
-    await expect.soft(blogList.getRegTitleByIndex(1)).toHaveText('Get Creative with Your Bathroom Lighting');
+    await expect.soft(blogList.titleMainArticle)
+      .toHaveText('Mock Add Soft Curves With Circular Bathroom Mirrors');
+    await expect.soft(blogList.getRegTitleByIndex(0))
+      .toHaveText('What Showers Are Best for Small Bathrooms?');
+    await expect.soft(blogList.getRegTitleByIndex(1))
+      .toHaveText('Get Creative with Your Bathroom Lighting');
 
-    await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1)).toHaveAttribute('class', /^(?!.*Checkbox_active).*$/);
+    await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1))
+      .toHaveAttribute('class', /^(?!.*Checkbox_active).*$/);
     await expect.soft(blogList.activeFilter).toBeHidden();
   });
 });

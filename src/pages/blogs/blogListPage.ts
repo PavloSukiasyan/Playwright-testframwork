@@ -46,9 +46,17 @@ export default class BlogListPage {
 
   filterGroupLabel = this.filterGroups.locator('h6');
 
-  getFilterDesiredGroupElements = (gIndex: number, i:number) => this.filterGroups.nth(gIndex).locator('[data-testid="checkbox"]').nth(i);
+  groupElements = (gIndex: number) => this.filterGroups.nth(gIndex).locator('[data-testid="checkbox"]');
 
-  getCheckboxForDesiredGroupElements = (gIndex: number, i:number) => this.getFilterDesiredGroupElements(gIndex, i).locator('i');
+  getDesiredGroupElement = (gIndex: number, i:number) => this.groupElements(gIndex).nth(i);
+
+  getCheckboxForDesiredGroupElements = (gIndex: number, i:number) => this.getDesiredGroupElement(gIndex, i).locator('i');
+
+  showBthForGroup = (gIndex: number) => this.filterGroups.nth(gIndex).locator('button');
+
+  showBthChevron = (gIndex: number) => this.showBthForGroup(gIndex).locator('i');
+
+  showBthLabel = (gIndex: number) => this.showBthForGroup(gIndex).locator('span');
 
   activeFilter = this.filterSideMenu.locator('[data-testid="active-filter"]');
 }

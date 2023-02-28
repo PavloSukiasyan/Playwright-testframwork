@@ -9422,7 +9422,7 @@ export const mockForBlogsListing = (
                   'Mirrors & accessories',
                   'Showers',
                   'Suites & furniture',
-                  'Tiles',
+                  'Tiles_mock',
                   'Toilets',
                 ],
                 __typename: 'FilterGroup',

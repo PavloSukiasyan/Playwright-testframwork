@@ -1,11 +1,12 @@
 import { test, expect } from '@playwright/test';
 import CONTENTFUL_URL from '../../../helper/constant';
 import { routeHelper } from '../../../helper/routeHelper';
+import getCssPropertyValue from '../../../helper/uiHelpers';
 import BlogListPage from '../../../pages/blogs/blogListPage';
 import { CommonSteps } from '../../../pages/commonSteps';
 import CookiesPolicyComponent from '../../../pages/components/oneTrustCookiePolicy';
 import Footer from '../../../pages/footer';
-import mockForBlogsListing from './mockBlogsListing';
+import mockForBlogsListing, { mockForFilteredBlogListing } from './mockBlogsListing';
 
 test.describe('Tests for Filter menu UI on Blogs listing page: ', () => {
   let blogList : BlogListPage;
@@ -27,7 +28,7 @@ test.describe('Tests for Filter menu UI on Blogs listing page: ', () => {
     await footer.getFooterLinkByHref('blogs').click();
   });
 
-  test('BCOM-16, Basic Filter UI', async () => {
+  test('BCOM-16, Basic Filter UI', async ({ page }) => {
     await test.step('Step 1: general filter', async () => {
       await expect.soft(blogList.filterSideMenu).toBeVisible();
       await expect.soft(blogList.activeFilter).toBeHidden();
@@ -83,7 +84,8 @@ test.describe('Tests for Filter menu UI on Blogs listing page: ', () => {
       await expect.soft(blogList.showBthLabel(0)).toHaveCSS('color', 'rgb(5, 45, 91)');
 
       await expect.soft(blogList.showBthChevron(0)).toHaveAttribute('aria-label', 'icon-chevron-down');
-      await expect.soft(blogList.filterGroups.nth(0)).toHaveCSS('height', '328px');
+
+      const heightBeforeExp = await getCssPropertyValue(blogList.filterGroups.nth(0), 'height');
 
       await blogList.showBthForGroup(0).click();
 
@@ -93,13 +95,18 @@ test.describe('Tests for Filter menu UI on Blogs listing page: ', () => {
       await expect.soft(blogList.showBthLabel(0)).toBeVisible();
       await expect.soft(blogList.showBthLabel(0)).toHaveText('Show less');
       await expect.soft(blogList.showBthChevron(0)).toHaveAttribute('aria-label', 'icon-chevron-up');
-      await expect.soft(blogList.filterGroups.nth(0)).toHaveCSS('height', /457.*px/);
+
+      const heightAfterExp = await getCssPropertyValue(blogList.filterGroups.nth(0), 'height');
+
+      expect.soft(parseInt(heightAfterExp, 10)).toBeGreaterThan(parseInt(heightBeforeExp, 10));
+      expect.soft((parseInt(heightAfterExp, 10)) - (parseInt(heightBeforeExp, 10)))
+        .toBeGreaterThanOrEqual(120);
 
       await expect.soft(blogList.showBthForGroup(1)).toBeHidden();
       await expect.soft(blogList.showBthForGroup(2)).toBeHidden();
     });
 
-    await test.step('Step 3: Details of filter group', async () => {
+    await test.step('Step 4: Details of filter group', async () => {
       await expect.soft(blogList.groupElements(0)).toHaveCount(8);
       const numberOfVariantsForFirstGr = await blogList.groupElements(0).count();
       const numberOfVariantsForFirstGrForLoops = numberOfVariantsForFirstGr - 1;
@@ -134,6 +141,37 @@ test.describe('Tests for Filter menu UI on Blogs listing page: ', () => {
           .toBeChecked({ checked: false });
       }
     });
-    // Todo step where style of checked combo-cox is verified
+
+    await test.step('Step 5: checkbox ui, when filtered/un filtered', async () => {
+      await routeHelper(page, CONTENTFUL_URL, mockForFilteredBlogListing(9, 11, 2));
+      await blogList.getDesiredGroupElement(0, 1).click();
+
+      await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1)).toBeChecked();
+
+      await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1))
+        .toHaveCSS('color', 'rgb(255, 255, 255)');
+      await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1))
+        .toHaveCSS('background-color', 'rgb(60, 113, 188)');
+      await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1))
+        .toHaveCSS('border-bottom-color', 'rgba(0, 0, 0, 0)');
+
+      await expect.soft(blogList.activeFilter).toBeVisible();
+      await expect.soft(blogList.activeFilter).toHaveText('Baths');
+
+      // Mock for undoing filtering  (back to default)
+      await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing());
+      await blogList.getDesiredGroupElement(0, 1).click();
+
+      await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1))
+        .toHaveCSS('color', 'rgb(255, 255, 255)');
+      await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1))
+        .toHaveCSS('background-color', 'rgb(255, 255, 255)');
+      await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1))
+        .toHaveCSS('border-bottom-color', 'rgb(155, 175, 200)');
+      await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1))
+        .toBeChecked({ checked: false });
+
+      await expect.soft(blogList.activeFilter).toBeHidden();
+    });
   });
 });

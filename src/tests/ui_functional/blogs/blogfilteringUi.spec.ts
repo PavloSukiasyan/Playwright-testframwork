@@ -4,7 +4,6 @@ import { routeHelper } from '../../../helper/routeHelper';
 import getCssPropertyValue from '../../../helper/uiHelpers';
 import BlogListPage from '../../../pages/blogs/blogListPage';
 import { CommonSteps } from '../../../pages/commonSteps';
-import CookiesPolicyComponent from '../../../pages/components/oneTrustCookiePolicy';
 import Footer from '../../../pages/footer';
 import mockForBlogsListing, { mockForFilteredBlogListing } from './mockBlogsListing';
 
@@ -14,11 +13,9 @@ test.describe('Tests for Filter menu UI on Blogs listing page: ', () => {
   test.beforeEach(async ({ page, context }) => {
     const commonSteps = new CommonSteps(page, context);
     const footer = new Footer(page);
-    const cookiesPolicy = new CookiesPolicyComponent(page, context);
 
     blogList = new BlogListPage(page);
 
-    await cookiesPolicy.setPredefinedCookies();
     await commonSteps.goToHomePage();
 
     // Mock

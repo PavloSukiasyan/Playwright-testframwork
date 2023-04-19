@@ -5,7 +5,6 @@ import { getCssPropertyValue } from '../../../helper/uiHelpers';
 import BlogListPage from '../../../pages/blogs/blogListPage';
 import { CommonSteps } from '../../../pages/commonSteps';
 import BreadCrumbsComponent from '../../../pages/components/breadcrumbs';
-import CookiesPolicyComponent from '../../../pages/components/oneTrustCookiePolicy';
 import Footer from '../../../pages/footer';
 import mockForBlogsListing from './mockBlogsListing';
 
@@ -15,11 +14,9 @@ test.describe('Tests for Blogs listing page: ', () => {
   test.beforeEach(async ({ page, context }) => {
     const commonSteps = new CommonSteps(page, context);
     const footer = new Footer(page);
-    const cookiesPolicy = new CookiesPolicyComponent(page, context);
 
     blogList = new BlogListPage(page);
 
-    await cookiesPolicy.setPredefinedCookies();
     await commonSteps.goToHomePage();
 
     // Mock

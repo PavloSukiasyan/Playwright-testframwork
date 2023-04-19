@@ -3,7 +3,6 @@ import CONTENTFUL_URL from '../../../helper/constant';
 import { routeHelper } from '../../../helper/routeHelper';
 import BlogListPage from '../../../pages/blogs/blogListPage';
 import CommonSteps from '../../../pages/commonSteps';
-import CookiesPolicyComponent from '../../../pages/components/oneTrustCookiePolicy';
 import Footer from '../../../pages/footer';
 import mockForBlogsListing, { mockForFilteredBlogListing } from './mockBlogsListing';
 
@@ -13,12 +12,10 @@ test.describe('Tests for Blogs listing actions page: ', () => {
 
   test.beforeEach(async ({ page, context }) => {
     const commonSteps = new CommonSteps(page, context);
-    const cookiesPolicy = new CookiesPolicyComponent(page, context);
 
     blogList = new BlogListPage(page);
     footer = new Footer(page);
 
-    await cookiesPolicy.setPredefinedCookies();
     await commonSteps.goToHomePage();
   });
 

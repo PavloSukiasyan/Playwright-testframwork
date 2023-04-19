@@ -5,7 +5,6 @@ import BlogDetailPage from '../../../pages/blogs/blogDetailPage';
 import BlogListPage from '../../../pages/blogs/blogListPage';
 import CommonSteps from '../../../pages/commonSteps';
 import BreadCrumbsComponent from '../../../pages/components/breadcrumbs';
-import CookiesPolicyComponent from '../../../pages/components/oneTrustCookiePolicy';
 import Footer from '../../../pages/footer';
 import mockForBlogDetailPage from './mockBlogDetails';
 import mockForBlogsListing from './mockBlogsListing';
@@ -15,12 +14,10 @@ test.describe('Tests for Blogs details page: ', () => {
 
   test.beforeEach(async ({ page, context }) => {
     const commonSteps = new CommonSteps(page, context);
-    const cookiesPolicy = new CookiesPolicyComponent(page, context);
     const footer = new Footer(page);
     const blogList = new BlogListPage(page);
     blogDetail = new BlogDetailPage(page);
 
-    await cookiesPolicy.setPredefinedCookies();
     await commonSteps.goToHomePage();
 
     // Mock for list

@@ -3,7 +3,6 @@ import CONTENTFUL_URL from '../../../helper/constant';
 import { routeHelper } from '../../../helper/routeHelper';
 import { CommonSteps } from '../../../pages/commonSteps';
 import BreadCrumbsComponent from '../../../pages/components/breadcrumbs';
-import CookiesPolicyComponent from '../../../pages/components/oneTrustCookiePolicy';
 import Footer from '../../../pages/footer';
 import StaticPage from '../../../pages/staticPages/staticPage';
 import { mockForCookiesPolicy } from './mockCookiesPolicy';
@@ -12,9 +11,7 @@ test.describe('Tests for Static - Cookies policy page: ', () => {
   test.beforeEach(async ({ page, context }) => {
     const commonSteps = new CommonSteps(page, context);
     const footer = new Footer(page);
-    const cookiesPolicy = new CookiesPolicyComponent(page, context);
 
-    await cookiesPolicy.setPredefinedCookies();
     await commonSteps.goToHomePage();
 
     // Mock

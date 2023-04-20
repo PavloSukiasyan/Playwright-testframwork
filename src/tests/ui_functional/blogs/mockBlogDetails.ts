@@ -3,6 +3,7 @@ export const mockForBlogDetailPage = {
     items: [
       {
         sitePageContent: {
+          slug: '/blogs/what-showers-are-best-for-small-bathrooms',
           previewTitle: 'What Showers Are Best for Small Bathrooms? Br Mocked',
           published: '2023-02-01T00:00:00.000Z',
           previewAuthor: null,

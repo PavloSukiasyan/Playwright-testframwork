@@ -18,7 +18,9 @@ export default class UserRoleModalComponent {
   clickOnConfirmBtn = async () => { await this.btnConfirm.click(); };
 
   setHomeowner = async () => {
+    await this.optionHomeowner.waitFor({state:'visible'});
     this.clickOnHomeowner();
     this.clickOnConfirmBtn();
+    await this.optionHomeowner.waitFor({state:'hidden'});
   };
 }

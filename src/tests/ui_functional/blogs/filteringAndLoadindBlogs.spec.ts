@@ -24,6 +24,7 @@ test.describe('Tests for Blogs listing actions page: ', () => {
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
+    await page.waitForLoadState();
 
     await expect.soft(blogList.mainArticle).toHaveCount(1);
     await expect.soft(blogList.regularArticles).toHaveCount(6);
@@ -42,7 +43,7 @@ test.describe('Tests for Blogs listing actions page: ', () => {
 
     await expect.soft(blogList.loadMoreBtn).toBeVisible();
 
-    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing(7, 13, 13, true));
+    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing(0, 13, 13, true));
     await blogList.loadMoreBtn.click();
 
     await expect.soft(blogList.mainArticle).toHaveCount(1);
@@ -62,7 +63,7 @@ test.describe('Tests for Blogs listing actions page: ', () => {
 
     await expect.soft(blogList.loadMoreBtn).toBeVisible();
 
-    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing(7, 13, 15, true));
+    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing(0, 13, 15, true));
     await blogList.loadMoreBtn.click();
 
     await expect.soft(blogList.mainArticle).toHaveCount(1);

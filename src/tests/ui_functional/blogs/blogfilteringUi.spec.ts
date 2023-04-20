@@ -23,6 +23,8 @@ test.describe('Tests for Filter menu UI on Blogs listing page: ', () => {
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
+
+    await page.waitForLoadState();
   });
 
   test('BCOM-16, Basic Filter UI', async ({ page }) => {

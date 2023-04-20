@@ -15,9 +15,10 @@ export class CommonSteps {
     await this.grantGeoPermissions();
 
     await this.cookiesPolicy.setPredefinedCookies();
-    await this.userRoleModal.setHomeowner();
 
-    await this.page.goto('https://www.bathrooms.com/');
+    await this.page.goto('/', {waitUntil:'load'});
+
+    await this.userRoleModal.setHomeowner();
   }
 
   async grantGeoPermissions() {

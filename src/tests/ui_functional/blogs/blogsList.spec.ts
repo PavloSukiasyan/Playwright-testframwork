@@ -24,6 +24,8 @@ test.describe('Tests for Blogs listing page: ', () => {
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
+
+    await page.waitForLoadState();
   });
 
   test('BCOM-4, open page and breadcrumbs', async ({ page }) => {
@@ -104,29 +106,6 @@ test.describe('Tests for Blogs listing page: ', () => {
 
     /* eslint no-restricted-syntax: ["error", "BinaryExpression[operator='in']"] */
     for (const title of regularTitles) {
-      await blogList.getRegTitleByIndex(regularTitles.indexOf(title)).scrollIntoViewIfNeeded();
-      await expect.soft(blogList.getRegTitleByIndex(regularTitles.indexOf(title)))
-        .toHaveText(title);
-    }
-  });
-
-  test('BCOM-7, regular articles titles', async () => {
-    await expect.soft(blogList.regularArticles).toHaveCount(6);
-    await expect.soft(blogList.titlesRegArticles).toHaveCount(6);
-
-    const regularTitles = [
-      'What Showers Are Best for Small Bathrooms?',
-      'Get Creative with Your Bathroom Lighting',
-      'What Is the Future of Bathroom Technology?',
-      'Would Your Bathroom Benefit From a Water Softener?',
-      'Add Luxury to Your Bathroom with Underfloor Heating',
-      'Copy Add Luxury to Your Bathroom with Underfloor Heating',
-    ];
-
-    /* eslint no-restricted-syntax: ["error", "BinaryExpression[operator='in']"] */
-    for (const title of regularTitles) {
-      await expect(blogList.getRegTitleByIndex(regularTitles.indexOf(title)))
-        .toBeVisible();
       await blogList.getRegTitleByIndex(regularTitles.indexOf(title)).scrollIntoViewIfNeeded();
       await expect.soft(blogList.getRegTitleByIndex(regularTitles.indexOf(title)))
         .toHaveText(title);

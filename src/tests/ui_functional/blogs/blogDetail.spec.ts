@@ -30,11 +30,12 @@ test.describe('Tests for Blogs details page: ', () => {
     // Mock for detail page
     await routeHelper(page, CONTENTFUL_URL, mockForBlogDetailPage);
     await blogList.btnRegArticles.nth(0).click();
+
+    await page.waitForLoadState();
   });
 
   test('BCOM-12, open Detail page and breadcrumbs', async ({ page }) => {
     const breadcrumbs = new BreadCrumbsComponent(page);
-    await page.waitForLoadState();
 
     await expect.soft(page).toHaveURL('blogs/what-showers-are-best-for-small-bathrooms');
 

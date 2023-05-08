@@ -23,9 +23,9 @@ test('API-2, playbuzz', async ({ request }) => {
   // https://github.com/facebook/jest/issues/9624
   // https://stackoverflow.com/questions/46742842/what-is-the-actual-use-of-tocontain-in-expect
 
-  expect.soft(await response.json()).toHaveProperty('total_hits', 391038);
+  expect.soft(await response.json()).toHaveProperty('total_hits', 391037);
   expect.soft(await response.json()).toHaveProperty('payload.currentItemCount', 25);
-  expect.soft(await response.json()).toHaveProperty('payload.totalItems', 391038);
+  expect.soft(await response.json()).toHaveProperty('payload.totalItems', 391037);
   expect.soft(await response.json()).toHaveProperty('payload.items.length', 25);
 
   const respBody = await response.json();

@@ -4,6 +4,7 @@ import UserRoleModalComponent from './components/userRoleModalComponent';
 
 export class CommonSteps {
   private readonly cookiesPolicy: CookiesPolicyComponent;
+
   private readonly userRoleModal: UserRoleModalComponent;
 
   constructor(private readonly page: Page, private context: BrowserContext) {
@@ -16,7 +17,7 @@ export class CommonSteps {
 
     await this.cookiesPolicy.setPredefinedCookies();
 
-    await this.page.goto('/', {waitUntil:'load'});
+    await this.page.goto('/', { waitUntil: 'load' });
 
     await this.userRoleModal.setHomeowner();
   }

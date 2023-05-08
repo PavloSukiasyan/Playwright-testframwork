@@ -4,18 +4,19 @@
   "description": "",
   "main": "helloWorld.js",
   "scripts": {
-    "test:chromium": "npx playwright test --project=chromium",
-    "test:report": "npx playwright show-report",
-    "test:api": "npx playwright test --project=api-tests",
-    "test": "playwright test",
+    "lint-fix:ts": "eslint . --ext .ts --fix",
     "lint:ts": "eslint . --ext .ts",
-    "fix-lint:ts": "eslint . --ext .ts --fix"
+    "test": "playwright test",
+    "test:api": "npx playwright test --project=api-tests",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:report": "npx playwright show-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@playwright/test": "^1.30.0"
+    "@playwright/test": "^1.30.0",
+    "k6": "^0.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.49.0",

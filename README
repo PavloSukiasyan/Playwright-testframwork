@@ -1,0 +1,33 @@
+This is a training project for me.
+
+Key things you can do here:
+
+--== Playwright ==--
+UI tests are stored: src/tests/ui_functional/blogs/*
+API tests are stored: src/tests/api/*
+
+1) Launch Playwright UI tests via command:
+  $npm run test:chromium
+2) Launch Playwright "API" tests via command:
+  $npm run test:api
+3) Check Playwright tests report command:
+  $npm run test:report
+4) To run Linter (with fix):
+  $npm run lint:ts
+  $npm run lint-fix:ts
+
+--== K6 ==--
+Tests are stored: src/tests/k6_performance/*.spec.ts
+
+For Grafana/Influxdb report, you need to launch:
+  $docker-compose -f docker-compose.yml up -d
+
+To launch K6 test and write result to db run script from terminal under k6_performance folder:
+  pavlo@Pavlo-PC k6_performance % k6 run --out influxdb=http://localhost:8086/db0 get_k6.spec.ts
+  ß
+--out influxdb=http://localhost:8086/db0 - it's for result been written into influxdb
+Just run test, without db: 
+  $k6 run get_k6.spec.ts
+
+To open Dashboard go to:
+http://localhost:3000/d/ReuNR5Aik/k6-dashboard?orgId=1

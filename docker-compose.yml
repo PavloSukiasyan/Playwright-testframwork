@@ -1,0 +1,32 @@
+version: "3.9"
+
+services:
+  influxdb:
+    container_name: influxdb
+    image: influxdb:1.8
+    ports:
+      - 8086:8086
+    volumes:
+      - influxdb-lib:/var/lib/influxdb2
+    environment:
+      - INFLUXDB_DB=db0
+    restart: always
+    privileged: true
+
+  grafana:
+    container_name: grafana
+    image: grafana/grafana:8.5.15
+    volumes:
+      - grafana-lib:/var/lib/grafana
+      - grafana-log:/var/log/grafana
+    ports:
+      - 3000:3000
+    depends_on:
+      - influxdb
+    restart: always
+    privileged: true
+
+volumes:
+  influxdb-lib:
+  grafana-lib:
+  grafana-log:

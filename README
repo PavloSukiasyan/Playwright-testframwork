@@ -31,3 +31,8 @@ Just run test, without db:
 
 To open Dashboard go to:
 http://localhost:3000/d/ReuNR5Aik/k6-dashboard?orgId=1
+
+
+Some notes:
+- executed to remove error "Cannot find module 'k6' or its corresponding type declarations."
+  $npm install --save @types/k6

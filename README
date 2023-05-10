@@ -24,10 +24,13 @@ For Grafana/Influxdb report, you need to launch:
 
 To launch K6 test and write result to db run script from terminal under k6_performance folder:
   pavlo@Pavlo-PC k6_performance % k6 run --out influxdb=http://localhost:8086/db0 get_k6.spec.ts
-  ß
+  
 --out influxdb=http://localhost:8086/db0 - it's for result been written into influxdb
 Just run test, without db: 
   $k6 run get_k6.spec.ts
+
+Run K6 test with DB record via npm:
+  $npm run test:k6
 
 To open Dashboard go to:
 http://localhost:3000/d/ReuNR5Aik/k6-dashboard?orgId=1

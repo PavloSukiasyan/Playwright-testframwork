@@ -9,6 +9,7 @@
     "test": "playwright test",
     "test:api": "npx playwright test --project=api-tests",
     "test:chromium": "npx playwright test --project=chromium",
+    "test:k6": "k6 run --out influxdb=http://localhost:8086/db0 src/tests/k6_performance/get_k6.spec.ts",
     "test:report": "npx playwright show-report"
   },
   "keywords": [],

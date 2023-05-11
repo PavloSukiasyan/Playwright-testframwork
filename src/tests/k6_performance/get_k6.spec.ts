@@ -8,15 +8,17 @@ export const options = {
     // ramp up
     { duration: '15s', target: 5 },
     // the test
-    { duration: '45s', target: 20 },
+    { duration: '200s', target: 50 },
     // ramp down
-    { duration: '5s', target: 0 },
+    { duration: '5s', target: 10 },
+
+    { duration: '2s', target: 1 },
   ],
 };
 
 export default function basicK6Test() {
   //  https://httpbin.test.k6.io/
-  const res = http.get('https://www.bathrooms.com/');
+  const res = http.get('https://www.bathrooms.com/blogs');
   check(res, { 'status was 200': (r) => r.status === 200 });
   sleep(1);
 }

@@ -59,4 +59,9 @@ export default class BlogListPage {
   showBthLabel = (gIndex: number) => this.showBthForGroup(gIndex).locator('span');
 
   activeFilter = this.filterSideMenu.locator('[data-testid="active-filter"]');
+
+  blogsWaitForTitles = async () => {
+    await this.titleMainArticle.waitFor();
+    await this.titlesRegArticles.nth(0).waitFor();
+  };
 }

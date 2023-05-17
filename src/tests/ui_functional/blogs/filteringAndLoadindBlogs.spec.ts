@@ -25,6 +25,7 @@ test.describe('Tests for Blogs listing actions page: ', () => {
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
     await page.waitForLoadState();
+    await blogList.blogsWaitForTitles();
 
     await expect.soft(blogList.mainArticle).toHaveCount(1);
     await expect.soft(blogList.regularArticles).toHaveCount(6);
@@ -37,6 +38,7 @@ test.describe('Tests for Blogs listing actions page: ', () => {
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
+    await blogList.blogsWaitForTitles();
 
     await expect.soft(blogList.mainArticle).toHaveCount(1);
     await expect.soft(blogList.regularArticles).toHaveCount(6);
@@ -57,6 +59,7 @@ test.describe('Tests for Blogs listing actions page: ', () => {
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
+    await blogList.blogsWaitForTitles();
 
     await expect.soft(blogList.mainArticle).toHaveCount(1);
     await expect.soft(blogList.regularArticles).toHaveCount(6);
@@ -77,6 +80,7 @@ test.describe('Tests for Blogs listing actions page: ', () => {
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
+    await blogList.blogsWaitForTitles();
 
     await expect.soft(blogList.regularArticles).toHaveCount(6);
     await expect.soft(blogList.mainArticle).toHaveCount(1);

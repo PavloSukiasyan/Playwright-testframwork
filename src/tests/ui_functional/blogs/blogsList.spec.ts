@@ -26,6 +26,7 @@ test.describe('Tests for Blogs listing page: ', () => {
     await footer.getFooterLinkByHref('blogs').click();
 
     await page.waitForLoadState();
+    await blogList.blogsWaitForTitles();
   });
 
   test('BCOM-4, open page and breadcrumbs', async ({ page }) => {

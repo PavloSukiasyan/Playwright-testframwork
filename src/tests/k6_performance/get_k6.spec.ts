@@ -4,15 +4,15 @@ import { check, sleep } from 'k6';
 export const options = {
   stages: [
     // warm up
-    { duration: '5s', target: 1 },
+    { duration: '10s', target: 1 },
     // ramp up
-    { duration: '15s', target: 5 },
+    { duration: '30s', target: 20 },
     // the test
-    { duration: '200s', target: 50 },
+    { duration: '300s', target: 200 },
     // ramp down
-    { duration: '5s', target: 10 },
+    { duration: '30s', target: 20 },
 
-    { duration: '2s', target: 1 },
+    { duration: '10s', target: 3 },
   ],
 };
 

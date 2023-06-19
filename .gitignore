@@ -3,3 +3,5 @@ node_modules/
 /playwright-report/
 /playwright/.cache/
 /.vscode
+.DS_Store
+/src/.DS_Store

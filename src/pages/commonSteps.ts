@@ -17,7 +17,7 @@ export class CommonSteps {
 
     await this.cookiesPolicy.setPredefinedCookies();
 
-    await this.page.goto('/', { waitUntil: 'load' });
+    await this.page.goto('/', { waitUntil: 'commit' });
 
     await this.userRoleModal.setHomeowner();
   }

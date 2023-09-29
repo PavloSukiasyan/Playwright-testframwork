@@ -14,14 +14,14 @@ const config: PlaywrightTestConfig = {
   testDir: './src/tests',
 
   /* Maximum time one test can run for. */
-  timeout: 90 * 1000,
+  timeout: 5 * 60 * 1000,
   // repeatEach: 5,
   expect: {
     /**
      * Maximum time expect() should wait for the condition to be met.
      * For example in `await expect(locator).toHaveText();`
      */
-    timeout: 10000,
+    timeout: 15 * 1000,
   },
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -38,7 +38,7 @@ const config: PlaywrightTestConfig = {
     ['junit', { outputFile: 'test-results/junit.xml' }],
   ]
     : [
-      ['html', { open: 'never' }],
+      ['html', { open: 'on-failure' }],
       ['list'],
     ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
@@ -46,13 +46,15 @@ const config: PlaywrightTestConfig = {
     viewport: { width: 1920, height: 1080 },
     headless: true,
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
-    actionTimeout: 0,
+    actionTimeout: 15 * 1000,
+    /* Timeout for each navigation action in milliseconds. Defaults to 0 (no timeout). */
+    navigationTimeout: 30 * 1000,
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
     baseURL: 'https://www.bathrooms.com/',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    trace: 'on',
     screenshot: 'only-on-failure',
     video: process.env.CI ? 'on-first-retry' : 'retain-on-failure',
   },

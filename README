@@ -33,8 +33,17 @@ Run K6 test with DB record via npm:
   $npm run test:k6
 
 To open Dashboard go to:
-http://localhost:3000/d/ReuNR5Aik/k6-dashboard?orgId=1
+http://localhost:3000/d/Ki5-IIdIz/k6-dashboard?orgId=1
 
+#Its important to correctly set `uid` for dashboard, as in example below:
+      "datasource": {
+        "type": "influxdb",
+        "uid": "Ki5-IIdIz"
+      },
+
+for `JSON Model` of Grafana dashboard, it can be viewed from network tab of `http://localhost:3000/datasources` like this
+`http://localhost:3000/api/datasources/uid/Ki5-IIdIz`
+In new configuration, you may need to replace it in up to 17 times, in order to see full dashboard.
 
 Some notes:
 - executed to remove error "Cannot find module 'k6' or its corresponding type declarations."

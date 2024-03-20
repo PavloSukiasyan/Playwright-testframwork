@@ -9,7 +9,7 @@ export default class CookiesPolicyComponent {
   clickOnAcceptCookies = async () => { await this.acceptBtn.click(); };
 
   setPredefinedCookies = async () => {
-    const cookies = fs.readFileSync('src/cookies.json', 'utf8');
+    const cookies = fs.readFileSync('src/resources/cookies.json', 'utf8');
 
     const deserializedCookies = JSON.parse(cookies);
     await this.context.addCookies(deserializedCookies);
@@ -19,6 +19,6 @@ export default class CookiesPolicyComponent {
     const cookies = await this.context.cookies();
     const cookieJson = JSON.stringify(cookies);
 
-    fs.writeFileSync('src/cookies.json', cookieJson);
+    fs.writeFileSync('src/resources/cookies.json', cookieJson);
   };
 }

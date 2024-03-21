@@ -6,7 +6,7 @@ import CommonSteps from '../../../pages/commonSteps';
 import Footer from '../../../pages/footer';
 import mockForBlogsListing, { mockForFilteredBlogListing } from './mockBlogsListing';
 
-test.describe('Tests for Blogs listing actions page: ', () => {
+test.describe('Tests for Blogs listing actions page:', () => {
   let blogList: BlogListPage;
   let footer: Footer;
 

@@ -8,7 +8,7 @@ import BreadCrumbsComponent from '../../../pages/components/breadcrumbs';
 import Footer from '../../../pages/footer';
 import mockForBlogsListing from './mockBlogsListing';
 
-test.describe('Tests for Blogs listing page: ', () => {
+test.describe('Tests for Blogs listing page:', () => {
   let blogList : BlogListPage;
 
   test.beforeEach(async ({ page, context }) => {

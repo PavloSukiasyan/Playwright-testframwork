@@ -11,9 +11,10 @@
         "plugin:playwright/playwright-test"
     ],
     "rules": {
-        "no-useless-constructor": "off",
         "import/extensions": "off",
         "import/no-unresolved": "off",
-        "no-await-in-loop": "off"
+        "no-await-in-loop": "off",
+        "no-empty-function": "off",
+        "no-useless-constructor": "off"
     }
 }

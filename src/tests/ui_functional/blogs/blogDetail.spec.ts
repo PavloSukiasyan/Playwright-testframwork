@@ -9,7 +9,7 @@ import Footer from '../../../pages/footer';
 import mockForBlogDetailPage from './mockBlogDetails';
 import mockForBlogsListing from './mockBlogsListing';
 
-test.describe('Tests for Blogs details page: ', () => {
+test.describe('Tests for Blogs details page:', () => {
   let blogDetail : BlogDetailPage;
 
   test.beforeEach(async ({ page, context }) => {

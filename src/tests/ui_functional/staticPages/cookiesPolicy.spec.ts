@@ -7,7 +7,7 @@ import Footer from '../../../pages/footer';
 import StaticPage from '../../../pages/staticPages/staticPage';
 import { mockForCookiesPolicy } from './mockCookiesPolicy';
 
-test.describe('Tests for Static - Cookies policy page: ', () => {
+test.describe('Tests for Static - Cookies policy page:', () => {
   test.beforeEach(async ({ page, context }) => {
     const commonSteps = new CommonSteps(page, context);
     const footer = new Footer(page);

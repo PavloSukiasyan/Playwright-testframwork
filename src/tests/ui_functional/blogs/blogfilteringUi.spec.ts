@@ -7,7 +7,7 @@ import { CommonSteps } from '../../../pages/commonSteps';
 import Footer from '../../../pages/footer';
 import mockForBlogsListing, { mockForFilteredBlogListing } from './mockBlogsListing';
 
-test.describe('Tests for Filter menu UI on Blogs listing page: ', () => {
+test.describe('Tests for Filter menu UI on Blogs listing page:', () => {
   let blogList : BlogListPage;
 
   test.beforeEach(async ({ page, context }) => {

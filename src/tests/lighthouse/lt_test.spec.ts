@@ -46,7 +46,7 @@ List.URLs.forEach((url: string) => {
 				directory: `${process.cwd()}/lighthouse-report`, //defaults to `${process.cwd()}/lighthouse`
 			},
 		});
-		await page.close();
+		await context.close();
 		// await browser.close();
 	})
 });

@@ -1,3 +1,9 @@
 {
-  "URLs": ["https://alleco.io/"]
+  "URLs": [
+    "https://alleco.io/",
+    "https://alleco.io/funktioner/",
+    "https://alleco.io/studio/",
+    "https://alleco.io/kom-i-gang/",
+    "https://alleco.io/kom-i-gang/#priser"
+  ]
 }

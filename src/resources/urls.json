@@ -5,5 +5,12 @@
     "https://alleco.io/studio/",
     "https://alleco.io/kom-i-gang/",
     "https://alleco.io/kom-i-gang/#priser"
+  ],
+  "URLsWithoutCookies": [
+    "https://www.getinge.com/"
+  ],
+  "Getinge": [
+    "https://www.getinge.com/int/contact/service/",
+    "https://www.getinge.com/int/products/silicone-thoracic-catheters/"
   ]
 }

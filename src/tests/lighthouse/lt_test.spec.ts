@@ -45,7 +45,6 @@ List.URLs.forEach((url: string) => {
       },
     });
     await context.close();
-    // await browser.close();
   });
 });
 

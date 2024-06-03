@@ -1,42 +1,30 @@
-import { test, expect } from '@playwright/test';
+// import { expect } from '@playwright/test';
+import { test, expect } from '../../../main.fixture';
 import CONTENTFUL_URL from '../../../helper/constant';
-import routeHelper from '../../../helper/routeHelper';
-import BlogDetailPage from '../../../pages/blogs/blogDetailPage';
-import BlogListPage from '../../../pages/blogs/blogListPage';
-import CommonSteps from '../../../pages/commonSteps';
-import BreadCrumbsComponent from '../../../pages/components/breadcrumbs';
-import Footer from '../../../pages/footer';
 import mockForBlogDetailPage from './mockBlogDetails';
 import mockForBlogsListing from './mockBlogsListing';
 
 test.describe('Tests for Blogs details page:', () => {
-  let blogDetail : BlogDetailPage;
-
-  test.beforeEach(async ({ page, context }) => {
-    const commonSteps = new CommonSteps(page, context);
-    const footer = new Footer(page);
-    const blogList = new BlogListPage(page);
-    blogDetail = new BlogDetailPage(page);
-
+  test.beforeEach(async ({
+    footer, blogList, routeHelper, page, commonSteps,
+  }) => {
     await commonSteps.goToHomePage();
 
     // Mock for list
-    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing());
+    await routeHelper.mock(CONTENTFUL_URL, mockForBlogsListing());
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
 
     await blogList.btnRegArticles.nth(0).waitFor();
     // Mock for detail page
-    await routeHelper(page, CONTENTFUL_URL, mockForBlogDetailPage);
+    await routeHelper.mock(CONTENTFUL_URL, mockForBlogDetailPage);
     await blogList.btnRegArticles.nth(0).click();
 
     await page.waitForLoadState();
   });
 
-  test('BCOM-12, open Detail page and breadcrumbs', async ({ page }) => {
-    const breadcrumbs = new BreadCrumbsComponent(page);
-
+  test('BCOM-12, open Detail page and breadcrumbs', async ({ breadcrumbs, page }) => {
     await expect.soft(page).toHaveURL('blogs/what-showers-are-best-for-small-bathrooms');
 
     await expect.soft(page).toHaveTitle(
@@ -51,7 +39,7 @@ test.describe('Tests for Blogs details page:', () => {
     await expect.soft(breadcrumbs.brLinks.nth(2)).toHaveText('What Showers Are Best for Small Bathrooms? Br Mocked');
   });
 
-  test('BCOM-13, date time', async () => {
+  test('BCOM-13, date time', async ({ blogDetail }) => {
     await expect.soft(blogDetail.publishedDate).toBeVisible();
     await expect.soft(blogDetail.publishedDate).toHaveText('Published: 1st Feb 2023');
     await expect.soft(blogDetail.publishedDate).toHaveCSS('font-size', '14px');
@@ -74,7 +62,7 @@ test.describe('Tests for Blogs details page:', () => {
     await expect.soft(blogDetail.readTime).toHaveCSS('color', 'rgb(255, 255, 255)');
   });
 
-  test('BCOM-14, UI', async () => {
+  test('BCOM-14, UI', async ({ blogDetail }) => {
     await expect.soft(blogDetail.socialMediaCont).toBeVisible();
 
     await expect.soft(blogDetail.facebookBtn).toBeVisible();

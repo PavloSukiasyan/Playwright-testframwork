@@ -1,3 +1,4 @@
+/* eslint-disable playwright/expect-expect */
 import { playAudit } from 'playwright-lighthouse';
 import { test, chromium } from '@playwright/test';
 import lighthouseDesktopConfig from 'lighthouse/core/config/lr-desktop-config.js';

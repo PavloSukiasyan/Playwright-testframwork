@@ -1,31 +1,21 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from '../../../main.fixture';
 import CONTENTFUL_URL from '../../../helper/constant';
-import { routeHelper } from '../../../helper/routeHelper';
-import { CommonSteps } from '../../../pages/commonSteps';
-import BreadCrumbsComponent from '../../../pages/components/breadcrumbs';
-import Footer from '../../../pages/footer';
-import StaticPage from '../../../pages/staticPages/staticPage';
 import { mockForCookiesPolicy } from './mockCookiesPolicy';
 
 test.describe('Tests for Static - Cookies policy page:', () => {
-  test.beforeEach(async ({ page, context }) => {
-    const commonSteps = new CommonSteps(page, context);
-    const footer = new Footer(page);
-
+  test.beforeEach(async ({ footer, commonSteps, routeHelper }) => {
     await commonSteps.goToHomePage();
 
     // Mock
-    await routeHelper(page, CONTENTFUL_URL, mockForCookiesPolicy);
+    await routeHelper.mock(CONTENTFUL_URL, mockForCookiesPolicy);
 
     // click footer link
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('cookies-policy').click();
   });
 
-  test('General: PT-1, PT-2, PT-3', async ({ page }) => {
+  test('General: PT-1, PT-2, PT-3', async ({ breadcrumbs, staticPage, page }) => {
     await test.step('PT-1, open page and breadcrumbs', async () => {
-      const breadcrumbs = new BreadCrumbsComponent(page);
-
       await expect.soft(page).toHaveURL(
         '/legal-policies/cookies-policy',
       );
@@ -80,8 +70,6 @@ test.describe('Tests for Static - Cookies policy page:', () => {
     });
 
     await test.step('PT-2, page content and style', async () => {
-      const staticPage = new StaticPage(page);
-
       await expect.soft(staticPage.titleOfTextBlock).toHaveText('Cookies Policy Mock2');
       await expect.soft(staticPage.titleOfTextBlock).toHaveCSS('font-size', '24px');
       await expect.soft(staticPage.titleOfTextBlock).toHaveCSS('font-family', /Helvetica Neue/);
@@ -142,8 +130,6 @@ test.describe('Tests for Static - Cookies policy page:', () => {
     });
 
     await test.step('PT-3, page navigation menu and style', async () => {
-      const staticPage = new StaticPage(page);
-
       await expect.soft(staticPage.navMenuLink).toHaveCount(9);
 
       const linksNumber = await staticPage.navMenuLink.count();

@@ -1,26 +1,16 @@
-import { test, expect } from '@playwright/test';
 import CONTENTFUL_URL from '../../../helper/constant';
-import { routeHelper } from '../../../helper/routeHelper';
 import { getCssPropertyValue } from '../../../helper/uiHelpers';
-import BlogListPage from '../../../pages/blogs/blogListPage';
-import { CommonSteps } from '../../../pages/commonSteps';
-import BreadCrumbsComponent from '../../../pages/components/breadcrumbs';
-import Footer from '../../../pages/footer';
+import { expect, test } from '../../../main.fixture';
 import mockForBlogsListing from './mockBlogsListing';
 
 test.describe('Tests for Blogs listing page:', () => {
-  let blogList : BlogListPage;
-
-  test.beforeEach(async ({ page, context }) => {
-    const commonSteps = new CommonSteps(page, context);
-    const footer = new Footer(page);
-
-    blogList = new BlogListPage(page);
-
+  test.beforeEach(async ({
+    page, blogList, footer, commonSteps, routeHelper,
+  }) => {
     await commonSteps.goToHomePage();
 
     // Mock
-    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing());
+    await routeHelper.mock(CONTENTFUL_URL, mockForBlogsListing());
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
@@ -29,8 +19,8 @@ test.describe('Tests for Blogs listing page:', () => {
     await blogList.blogsWaitForTitles();
   });
 
-  test('BCOM-4, open page and breadcrumbs', async ({ page }) => {
-    const breadcrumbs = new BreadCrumbsComponent(page);
+  test('BCOM-4, open page and breadcrumbs', async ({ page, breadcrumbs }) => {
+    // const breadcrumbs = new BreadCrumbsComponent(page);
 
     await expect.soft(page).toHaveURL('/blogs');
 
@@ -45,7 +35,7 @@ test.describe('Tests for Blogs listing page:', () => {
     await expect.soft(breadcrumbs.brLinks.nth(1)).toHaveText('Blog');
   });
 
-  test('BCOM-5, main article', async () => {
+  test('BCOM-5, main article', async ({ blogList }) => {
     await expect.soft(blogList.titleMainArticle).toHaveText('Mock Add Soft Curves With Circular Bathroom Mirrors');
     await expect.soft(blogList.titleMainArticle).toHaveCSS('font-size', '36px');
     await expect.soft(blogList.titleMainArticle).toHaveCSS('font-weight', '700');
@@ -92,7 +82,7 @@ test.describe('Tests for Blogs listing page:', () => {
     await expect.soft(blogList.btnMainArticle).toHaveCSS('background-color', 'rgb(60, 113, 188)');
   });
 
-  test('BCOM-6, regular articles titles', async () => {
+  test('BCOM-6, regular articles titles', async ({ blogList }) => {
     await expect.soft(blogList.regularArticles).toHaveCount(6);
     await expect.soft(blogList.titlesRegArticles).toHaveCount(6);
 
@@ -113,7 +103,7 @@ test.describe('Tests for Blogs listing page:', () => {
     }
   });
 
-  test('BCOM-7, "Load more" button UI', async () => {
+  test('BCOM-7, "Load more" button UI', async ({ blogList }) => {
     await expect.soft(blogList.mainArticle).toHaveCount(1);
     await expect.soft(blogList.regularArticles).toHaveCount(6);
 
@@ -131,7 +121,7 @@ test.describe('Tests for Blogs listing page:', () => {
     await expect.soft(blogList.loadMoreBtn).toHaveCSS('background-color', 'rgb(240, 243, 246)');
   });
 
-  test('BCOM-11, Main article and three regulars in a row', async () => {
+  test('BCOM-11, Main article and three regulars in a row', async ({ blogList }) => {
     await expect.soft(blogList.mainArticle).toBeVisible();
 
     await expect.soft(blogList.regularArticles.nth(0)).toBeVisible();

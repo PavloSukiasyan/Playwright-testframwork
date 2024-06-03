@@ -1,25 +1,15 @@
-import { test, expect } from '@playwright/test';
 import CONTENTFUL_URL from '../../../helper/constant';
-import { routeHelper } from '../../../helper/routeHelper';
-import getCssPropertyValue from '../../../helper/uiHelpers';
-import BlogListPage from '../../../pages/blogs/blogListPage';
-import { CommonSteps } from '../../../pages/commonSteps';
-import Footer from '../../../pages/footer';
+import { test, expect } from '../../../main.fixture';
 import mockForBlogsListing, { mockForFilteredBlogListing } from './mockBlogsListing';
+import { getCssPropertyValue } from '../../../helper/uiHelpers';
 
 test.describe('Tests for Filter menu UI on Blogs listing page:', () => {
-  let blogList : BlogListPage;
-
-  test.beforeEach(async ({ page, context }) => {
-    const commonSteps = new CommonSteps(page, context);
-    const footer = new Footer(page);
-
-    blogList = new BlogListPage(page);
-
+  test.beforeEach(async ({
+    page, footer, routeHelper, commonSteps,
+  }) => {
     await commonSteps.goToHomePage();
-
     // Mock
-    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing());
+    await routeHelper.mock(CONTENTFUL_URL, mockForBlogsListing());
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
@@ -27,7 +17,7 @@ test.describe('Tests for Filter menu UI on Blogs listing page:', () => {
     await page.waitForLoadState();
   });
 
-  test('BCOM-16, Basic Filter UI', async ({ page }) => {
+  test('BCOM-16, Basic Filter UI', async ({ blogList, routeHelper }) => {
     await test.step('Step 1: general filter', async () => {
       await expect.soft(blogList.filterSideMenu).toBeVisible();
       await expect.soft(blogList.activeFilter).toBeHidden();
@@ -142,7 +132,7 @@ test.describe('Tests for Filter menu UI on Blogs listing page:', () => {
     });
 
     await test.step('Step 5: checkbox ui, when filtered/un filtered', async () => {
-      await routeHelper(page, CONTENTFUL_URL, mockForFilteredBlogListing(9, 11, 2));
+      await routeHelper.mock(CONTENTFUL_URL, mockForFilteredBlogListing(9, 11, 2));
       await blogList.getDesiredGroupElement(0, 1).click();
 
       await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1)).toBeChecked();
@@ -158,7 +148,7 @@ test.describe('Tests for Filter menu UI on Blogs listing page:', () => {
       await expect.soft(blogList.activeFilter).toHaveText('Baths');
 
       // Mock for undoing filtering  (back to default)
-      await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing());
+      await routeHelper.mock(CONTENTFUL_URL, mockForBlogsListing());
       await blogList.getDesiredGroupElement(0, 1).click();
 
       await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1))

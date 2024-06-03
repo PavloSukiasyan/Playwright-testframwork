@@ -1,26 +1,16 @@
-import { test, expect } from '@playwright/test';
 import CONTENTFUL_URL from '../../../helper/constant';
-import { routeHelper } from '../../../helper/routeHelper';
-import BlogListPage from '../../../pages/blogs/blogListPage';
-import CommonSteps from '../../../pages/commonSteps';
-import Footer from '../../../pages/footer';
 import mockForBlogsListing, { mockForFilteredBlogListing } from './mockBlogsListing';
+import { test, expect } from '../../../main.fixture';
 
 test.describe('Tests for Blogs listing actions page:', () => {
-  let blogList: BlogListPage;
-  let footer: Footer;
-
-  test.beforeEach(async ({ page, context }) => {
-    const commonSteps = new CommonSteps(page, context);
-
-    blogList = new BlogListPage(page);
-    footer = new Footer(page);
-
+  test.beforeEach(async ({ commonSteps }) => {
     await commonSteps.goToHomePage();
   });
 
-  test('BCOM-8, only seven blogs - so no "Load more" button', async ({ page }) => {
-    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing(0, 7, 7, true));
+  test('BCOM-8, only seven blogs - so no "Load more" button', async ({
+    footer, blogList, routeHelper, page,
+  }) => {
+    await routeHelper.mock(CONTENTFUL_URL, mockForBlogsListing(0, 7, 7, true));
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
@@ -33,8 +23,8 @@ test.describe('Tests for Blogs listing actions page:', () => {
     await expect.soft(blogList.loadMoreBtn).toBeHidden();
   });
 
-  test('BCOM-9, "Load more" button loads six more, and button then hides', async ({ page }) => {
-    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing(0, 7, 13, true));
+  test('BCOM-9, "Load more" button loads six more, and button then hides', async ({ footer, blogList, routeHelper }) => {
+    await routeHelper.mock(CONTENTFUL_URL, mockForBlogsListing(0, 7, 13, true));
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
@@ -45,7 +35,7 @@ test.describe('Tests for Blogs listing actions page:', () => {
 
     await expect.soft(blogList.loadMoreBtn).toBeVisible();
 
-    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing(0, 13, 13, true));
+    await routeHelper.mock(CONTENTFUL_URL, mockForBlogsListing(0, 13, 13, true));
     await blogList.loadMoreBtn.click();
 
     await expect.soft(blogList.mainArticle).toHaveCount(1);
@@ -54,8 +44,8 @@ test.describe('Tests for Blogs listing actions page:', () => {
     await expect.soft(blogList.loadMoreBtn).toBeHidden();
   });
 
-  test('BCOM-10, "Load more" button loads six more, and button then still visible', async ({ page }) => {
-    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing(0, 7, 15, true));
+  test('BCOM-10, "Load more" button loads six more, and button then still visible', async ({ routeHelper, footer, blogList }) => {
+    await routeHelper.mock(CONTENTFUL_URL, mockForBlogsListing(0, 7, 15, true));
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
@@ -66,7 +56,7 @@ test.describe('Tests for Blogs listing actions page:', () => {
 
     await expect.soft(blogList.loadMoreBtn).toBeVisible();
 
-    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing(0, 13, 15, true));
+    await routeHelper.mock(CONTENTFUL_URL, mockForBlogsListing(0, 13, 15, true));
     await blogList.loadMoreBtn.click();
 
     await expect.soft(blogList.mainArticle).toHaveCount(1);
@@ -75,8 +65,8 @@ test.describe('Tests for Blogs listing actions page:', () => {
     await expect.soft(blogList.loadMoreBtn).toBeVisible();
   });
 
-  test('BCOM-15, Basic filtering', async ({ page }) => {
-    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing());
+  test('BCOM-15, Basic filtering', async ({ routeHelper, footer, blogList }) => {
+    await routeHelper.mock(CONTENTFUL_URL, mockForBlogsListing());
 
     await footer.navigationPart.waitFor();
     await footer.getFooterLinkByHref('blogs').click();
@@ -109,7 +99,7 @@ test.describe('Tests for Blogs listing actions page:', () => {
       .toHaveAttribute('class', /^(?!.*Checkbox_active).*$/);
 
     // Mock for first filtering
-    await routeHelper(page, CONTENTFUL_URL, mockForFilteredBlogListing(10, 13, 3));
+    await routeHelper.mock(CONTENTFUL_URL, mockForFilteredBlogListing(10, 13, 3));
     await blogList.getDesiredGroupElement(0, 1).click();
     await expect.soft(blogList.getCheckboxForDesiredGroupElements(0, 1))
       .toHaveAttribute('class', /.*Checkbox_active.*/);
@@ -128,7 +118,7 @@ test.describe('Tests for Blogs listing actions page:', () => {
       .toHaveText('Stylish Bathroom Worktops for Neat Design Finishes');
 
     // Mock for undoing filtering  (back to default)
-    await routeHelper(page, CONTENTFUL_URL, mockForBlogsListing());
+    await routeHelper.mock(CONTENTFUL_URL, mockForBlogsListing());
     await blogList.getDesiredGroupElement(0, 1).click();
 
     await expect.soft(blogList.regularArticles).toHaveCount(6);

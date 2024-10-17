@@ -1,17 +1,17 @@
-import { Page } from '@playwright/test';
+import BasePage from '../../base/basePage';
 
-export default class BlogDetailPage {
-  constructor(private readonly page:Page) {}
+export default class BlogDetailPage extends BasePage {
+  public readonly base = this.page.locator('main');
 
-  publishedDate = this.page.locator('[data-testid="published"]');
+  publishedDate = this.base.locator('[data-testid="published"]');
 
-  readTime = this.page.locator('[data-testid="published"] + span.undefined.notes-default');
+  readTime = this.base.locator('[data-testid="published"] + span.undefined.notes-default');
 
-  socialMediaCont = this.page.locator('[class*="ShareOnSocialMedia_container"]');
+  socialMediaCont = this.base.locator('[class*="ShareOnSocialMedia_container"]');
 
   facebookBtn = this.socialMediaCont.locator('button[aria-label="facebook"]');
 
-  contentBlock = this.page.locator('[data-testid="content-block"]');
+  contentBlock = this.base.locator('[data-testid="content-block"]');
 
   textParagraph = this.contentBlock.locator('div[class*="body-wide-line"]');
 

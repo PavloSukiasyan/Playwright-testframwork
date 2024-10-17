@@ -1,10 +1,17 @@
-import { BrowserContext, Page } from '@playwright/test';
+import { BrowserContext, Locator, Page } from '@playwright/test';
 import fs from 'fs';
+import BasePageComponent from '../../base/baseComponents';
 
-export default class CookiesPolicyComponent {
-  constructor(private readonly page: Page, private context: BrowserContext) {}
+export default class CookiesPolicyComponent extends BasePageComponent {
+  public readonly base: Locator;
 
-  acceptBtn = this.page.locator('button#onetrust-accept-btn-handler');
+  public readonly acceptBtn: Locator;
+
+  constructor(protected page: Page, private context: BrowserContext) {
+    super(page);
+    this.base = this.page.locator('#onetrust-group-container');
+    this.acceptBtn = this.base.locator('button#onetrust-accept-btn-handler');
+  }
 
   clickOnAcceptCookies = async () => { await this.acceptBtn.click(); };
 

@@ -1,8 +1,6 @@
-import { Page } from '@playwright/test';
+import BasePage from '../../base/basePage';
 
-export default class StaticPage {
-  constructor(private readonly page: Page) {}
-
+export default class StaticPage extends BasePage {
   mainPartOfStaticPage = this.page.locator('[class*="StaticInfoPage"]');
 
   navigationMenuPart = this.mainPartOfStaticPage.locator('[data-testid="navigation-side-menu"]');

@@ -1,15 +1,13 @@
-import { Page } from '@playwright/test';
+import BasePageComponent from '../../base/baseComponents';
 
-export default class UserRoleModalComponent {
-  constructor(private readonly page: Page) {}
+export default class UserRoleModalComponent extends BasePageComponent {
+  public base = this.page.locator('dialog[class*="UserRoleModal"]');
 
-  modalWindowForRole = this.page.locator('dialog[class*="UserRoleModal"]');
+  optionHomeowner = this.base.locator('input#user-homeowner');
 
-  optionHomeowner = this.modalWindowForRole.locator('input#user-homeowner');
+  optionTraderOwner = this.base.locator('input#user-trader');
 
-  optionTraderOwner = this.modalWindowForRole.locator('input#user-trader');
-
-  btnConfirm = this.modalWindowForRole.locator('button[class*="Button_primary"]');
+  btnConfirm = this.base.locator('button[class*="Button_primary"]');
 
   clickOnHomeowner = async () => { await this.optionHomeowner.click(); };
 

@@ -1,8 +1,6 @@
-import { Page } from '@playwright/test';
+import BasePage from '../../base/basePage';
 
-export default class BlogListPage {
-  constructor(private readonly page:Page) {}
-
+export default class BlogListPage extends BasePage {
   articlesBlock = this.page.locator('[class*="row Blogs_articlesContainer"]');
 
   mainArticle = this.articlesBlock.locator('[data-testid="main-article-block"]');

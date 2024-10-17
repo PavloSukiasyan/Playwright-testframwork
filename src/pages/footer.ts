@@ -1,11 +1,9 @@
-import { Page } from '@playwright/test';
+import BasePageComponent from '../base/baseComponents';
 
-export default class Footer {
-  constructor(private readonly page: Page) { }
+export default class Footer extends BasePageComponent {
+  base = this.page.locator('[data-testid="footer"]');
 
-  mainBlock = this.page.locator('[data-testid="footer"]');
-
-  navigationPart = this.mainBlock.locator('[class*="Footer_navigation"] div[class*="row padding"]');
+  navigationPart = this.base.locator('[class*="Footer_navigation"] div[class*="row padding"]');
 
   cookiesPolicyLink = this.navigationPart.locator('a[href*="cookies-policy"]');
 

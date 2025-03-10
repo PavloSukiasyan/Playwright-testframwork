@@ -75,6 +75,8 @@ test.describe('Tests for Filter menu UI on Blogs listing page:', () => {
       await expect.soft(blogList.showBthChevron(0)).toHaveAttribute('aria-label', 'icon-chevron-down');
 
       const heightBeforeExp = await getCssPropertyValue(blogList.filterGroups.nth(0), 'height');
+      // this above is obsolete and can be replaced with assert below 
+      await expect.soft(blogList.filterGroups.nth(0)).toHaveCSS('height', '332px')
 
       await blogList.showBthForGroup(0).click();
 
